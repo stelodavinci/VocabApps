@@ -1,276 +1,480 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover"/>
   <title>Vocab Harian</title>
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="VocabHarian" />
-  <meta name="mobile-web-app-capable" content="yes" />
-  <meta name="theme-color" content="#1e40af" />
-  <meta name="description" content="Hapal 100 kosakata bahasa Inggris setiap hari" />
-  <link rel="apple-touch-icon" href="icons/icon-152.png" />
-  <link rel="apple-touch-icon" sizes="72x72"  href="icons/icon-72.png" />
-  <link rel="apple-touch-icon" sizes="96x96"  href="icons/icon-96.png" />
-  <link rel="apple-touch-icon" sizes="128x128" href="icons/icon-128.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="icons/icon-144.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="icons/icon-152.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="icons/icon-192.png" />
-  <link rel="manifest" href="manifest.json" />
-  <link rel="icon" type="image/png" href="icons/icon-192.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+  <meta name="apple-mobile-web-app-title" content="VocabHarian"/>
+  <meta name="mobile-web-app-capable" content="yes"/>
+  <meta name="theme-color" content="#0f172a"/>
+  <meta name="description" content="Hapal kosakata bahasa Inggris berdasarkan topik"/>
+  <link rel="apple-touch-icon" href="icons/icon-152.png"/>
+  <link rel="manifest" href="manifest.json"/>
+  <link rel="icon" type="image/png" href="icons/icon-192.png"/>
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
-    :root {
-      --bg-primary: #0f172a; --bg-secondary: #1e293b; --bg-card: #1e3a5f;
-      --bg-card-done: #14532d; --accent-blue: #3b82f6; --accent-green: #22c55e;
-      --text-primary: #f1f5f9; --text-secondary: #94a3b8; --text-muted: #64748b;
-      --border: #334155; --radius-card: 14px; --shadow-card: 0 4px 16px rgba(0,0,0,0.4);
-      --shadow-done: 0 4px 16px rgba(34,197,94,0.25); --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      --safe-top: env(safe-area-inset-top, 0px); --safe-bottom: env(safe-area-inset-bottom, 0px);
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+    :root{
+      --bg:#0f172a;--bg2:#1e293b;--card-blue:#1e3a5f;--card-green:#14532d;
+      --blue:#3b82f6;--green:#22c55e;--text:#f1f5f9;--text2:#94a3b8;--muted:#64748b;
+      --border:#334155;--r:14px;--safe-top:env(safe-area-inset-top,0px);--safe-bot:env(safe-area-inset-bottom,0px);
+      --font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
     }
-    html { background: var(--bg-primary); height: 100%; }
-    body { font-family: var(--font); background: var(--bg-primary); color: var(--text-primary); min-height: 100vh; padding-top: var(--safe-top); padding-bottom: calc(var(--safe-bottom) + 20px); overflow-x: hidden; }
-    .app-header { position: sticky; top: 0; z-index: 100; background: rgba(15,23,42,0.92); backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); border-bottom: 1px solid var(--border); padding: 14px 16px 10px; padding-top: calc(14px + var(--safe-top)); }
-    .header-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
-    .app-title { font-size: 1.25rem; font-weight: 700; color: var(--text-primary); display: flex; align-items: center; gap: 8px; }
-    .date-badge { font-size: 0.72rem; font-weight: 600; background: var(--bg-secondary); color: var(--text-secondary); padding: 4px 10px; border-radius: 20px; border: 1px solid var(--border); white-space: nowrap; }
-    .header-progress { margin-top: 10px; }
-    .progress-info { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
-    .progress-text { font-size: 0.8rem; color: var(--text-secondary); }
-    .progress-count { font-size: 0.85rem; font-weight: 700; color: var(--accent-green); }
-    .progress-bar-track { background: var(--bg-secondary); border-radius: 99px; height: 6px; overflow: hidden; }
-    .progress-bar-fill { height: 100%; background: linear-gradient(90deg, #22c55e, #4ade80); border-radius: 99px; transition: width 0.4s cubic-bezier(.4,0,.2,1); width: 0%; }
-    .filter-bar { display: flex; gap: 8px; margin-top: 10px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; }
-    .filter-bar::-webkit-scrollbar { display: none; }
-    .filter-btn { flex-shrink: 0; font-size: 0.75rem; font-weight: 600; padding: 5px 14px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--text-secondary); cursor: pointer; transition: all 0.2s; -webkit-appearance: none; }
-    .filter-btn.active { background: var(--accent-blue); border-color: var(--accent-blue); color: #fff; }
-    .filter-btn:active { opacity: 0.75; }
-    .main-content { padding: 16px 12px; max-width: 600px; margin: 0 auto; }
-    .section-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 10px; padding-left: 4px; display: flex; align-items: center; gap: 6px; }
-    .section-label::after { content: ''; flex: 1; height: 1px; background: var(--border); }
-    .cards-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
-    @media (min-width: 560px) { .cards-grid { grid-template-columns: repeat(3, 1fr); } }
-    .vocab-card { background: var(--bg-card); border: 1.5px solid rgba(59,130,246,0.3); border-radius: var(--radius-card); padding: 14px 12px; cursor: pointer; transition: transform 0.15s, box-shadow 0.2s, background 0.3s, border-color 0.3s; user-select: none; -webkit-user-select: none; position: relative; overflow: hidden; box-shadow: var(--shadow-card); will-change: transform; min-height: 88px; display: flex; flex-direction: column; justify-content: space-between; }
-    .vocab-card::before { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(255,255,255,0.04), transparent); pointer-events: none; }
-    .vocab-card:active { transform: scale(0.95); }
-    .vocab-card.done { background: var(--bg-card-done); border-color: rgba(34,197,94,0.4); box-shadow: var(--shadow-done); }
-    .card-num { font-size: 0.62rem; font-weight: 700; color: rgba(255,255,255,0.25); margin-bottom: 6px; font-variant-numeric: tabular-nums; }
-    .vocab-card.done .card-num { color: rgba(74,222,128,0.4); }
-    .card-en { font-size: 1rem; font-weight: 700; color: var(--text-primary); line-height: 1.3; margin-bottom: 5px; word-break: break-word; }
-    .vocab-card.done .card-en { color: #bbf7d0; }
-    .card-id { font-size: 0.78rem; color: var(--text-secondary); line-height: 1.4; word-break: break-word; }
-    .vocab-card.done .card-id { color: #86efac; }
+    html{background:var(--bg);height:100%}
+    body{font-family:var(--font);background:var(--bg);color:var(--text);min-height:100vh;overflow-x:hidden}
+
+    /* ── LOADING ── */
+    #loading-screen{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:999;gap:16px}
+    .loader-emoji{font-size:3rem;animation:pulse 1.5s ease-in-out infinite}
+    .loader-text{font-size:.9rem;color:var(--text2)}
+    @keyframes pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(.9);opacity:.6}}
+
+    /* ── SHARED HEADER ── */
+    .app-bar{position:sticky;top:0;z-index:100;background:rgba(15,23,42,.95);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--border)}
+
+    /* ── HOME VIEW ── */
+    #view-home{display:block;padding-bottom:calc(var(--safe-bot) + 24px)}
+    .home-bar{padding:14px 16px 12px;padding-top:calc(14px + var(--safe-top))}
+    .home-title{font-size:1.3rem;font-weight:700;display:flex;align-items:center;gap:8px;margin-bottom:6px}
+    .home-sub{font-size:.78rem;color:var(--text2);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+    .stat-pill{background:var(--bg2);border:1px solid var(--border);border-radius:20px;padding:3px 10px;font-size:.72rem;white-space:nowrap}
+    .stat-pill.green{border-color:rgba(34,197,94,.4);color:#4ade80}
+    .search-bar-wrap{padding:0 12px 10px}
+    .search-input{width:100%;background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:9px 14px 9px 36px;color:var(--text);font-size:.85rem;outline:none;transition:border-color .2s;font-family:var(--font)}
+    .search-input:focus{border-color:var(--blue)}
+    .search-wrap{position:relative}
+    .search-icon{position:absolute;left:11px;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none;font-size:.9rem}
+    .section-title{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);padding:10px 16px 6px;display:flex;align-items:center;gap:8px}
+    .section-title::after{content:'';flex:1;height:1px;background:var(--border)}
+    .cat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;padding:0 12px 8px;max-width:640px;margin:0 auto}
+    @media(min-width:500px){.cat-grid{grid-template-columns:repeat(3,1fr)}}
+    .cat-card{background:var(--cat-bg,#1e3a5f);border:1.5px solid rgba(255,255,255,.08);border-radius:16px;padding:14px 12px;cursor:pointer;transition:transform .15s,box-shadow .2s;user-select:none;-webkit-user-select:none;position:relative;overflow:hidden}
+    .cat-card::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.06),transparent);pointer-events:none}
+    .cat-card:active{transform:scale(.95)}
+    .cat-card.hidden{display:none}
+    .cat-emoji{font-size:1.8rem;display:block;margin-bottom:6px;line-height:1}
+    .cat-name{font-size:.82rem;font-weight:700;color:var(--text);margin-bottom:3px;line-height:1.3}
+    .cat-count{font-size:.7rem;color:rgba(255,255,255,.5);margin-bottom:7px}
+    .cat-prog{background:rgba(255,255,255,.12);border-radius:99px;height:3px;margin-bottom:5px;overflow:hidden}
+    .cat-prog-fill{height:100%;background:rgba(255,255,255,.65);border-radius:99px;transition:width .4s cubic-bezier(.4,0,.2,1)}
+    .cat-prog-fill.full{background:#4ade80}
+    .cat-done-text{font-size:.68rem;color:rgba(255,255,255,.55)}
+    .cat-done-text.all{color:#4ade80;font-weight:700}
+
+    /* ── WORDS VIEW ── */
+    #view-words{display:none;flex-direction:column;min-height:100vh;padding-bottom:calc(var(--safe-bot) + 20px)}
+    .words-bar{padding:10px 16px 0;padding-top:calc(10px + var(--safe-top))}
+    .wh-top{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+    .back-btn{flex-shrink:0;background:transparent;border:1px solid var(--border);color:var(--text2);font-size:.78rem;padding:6px 12px;border-radius:8px;cursor:pointer;font-family:var(--font);display:flex;align-items:center;gap:4px;transition:border-color .2s,color .2s;-webkit-appearance:none}
+    .back-btn:hover{border-color:var(--blue);color:var(--blue)}
+    .words-heading{font-size:1rem;font-weight:700;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .wh-progress{margin-bottom:8px}
+    .prog-row{display:flex;justify-content:space-between;margin-bottom:5px;font-size:.78rem}
+    .prog-label{color:var(--text2)}
+    .prog-count{font-weight:700;color:#4ade80}
+    .prog-track{background:var(--bg2);border-radius:99px;height:5px;overflow:hidden}
+    .prog-fill{height:100%;background:linear-gradient(90deg,#22c55e,#4ade80);border-radius:99px;transition:width .4s cubic-bezier(.4,0,.2,1);width:0%}
+    .filter-bar{display:flex;gap:6px;overflow-x:auto;padding-bottom:10px;scrollbar-width:none}
+    .filter-bar::-webkit-scrollbar{display:none}
+    .filter-btn{flex-shrink:0;font-size:.73rem;font-weight:600;padding:5px 13px;border-radius:20px;border:1px solid var(--border);background:transparent;color:var(--text2);cursor:pointer;transition:all .2s;-webkit-appearance:none;font-family:var(--font)}
+    .filter-btn.active{background:var(--blue);border-color:var(--blue);color:#fff}
+
+    /* ── WORD CARDS ── */
+    .words-main{padding:12px 12px;flex:1;max-width:640px;margin:0 auto;width:100%}
+    .cards-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+    @media(min-width:560px){.cards-grid{grid-template-columns:repeat(3,1fr)}}
+    .vocab-card{background:var(--card-blue);border:1.5px solid rgba(59,130,246,.3);border-radius:var(--r);padding:13px 11px;cursor:pointer;transition:transform .15s,box-shadow .2s,background .3s,border-color .3s;user-select:none;-webkit-user-select:none;position:relative;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.4);min-height:85px;display:flex;flex-direction:column;justify-content:space-between}
+    .vocab-card::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.04),transparent);pointer-events:none}
+    .vocab-card:active{transform:scale(.95)}
+    .vocab-card.done{background:var(--card-green);border-color:rgba(34,197,94,.4);box-shadow:0 4px 16px rgba(34,197,94,.2)}
+    .card-num{font-size:.6rem;font-weight:700;color:rgba(255,255,255,.2);margin-bottom:5px;font-variant-numeric:tabular-nums}
+    .vocab-card.done .card-num{color:rgba(74,222,128,.4)}
+    .card-en{font-size:.95rem;font-weight:700;color:var(--text);line-height:1.3;margin-bottom:4px;word-break:break-word;padding-right:28px}
+    .vocab-card.done .card-en{color:#bbf7d0}
+    .card-id{font-size:.75rem;color:var(--text2);line-height:1.4;word-break:break-word;padding-right:28px}
+    .vocab-card.done .card-id{color:#86efac}
     /* Voice button */
-    .card-voice { position: absolute; top: 7px; right: 7px; width: 26px; height: 26px; border-radius: 50%; background: rgba(59,130,246,0.18); border: 1.5px solid rgba(59,130,246,0.35); display: flex; align-items: center; justify-content: center; cursor: pointer; transition: background 0.2s, transform 0.15s, border-color 0.2s; z-index: 2; -webkit-appearance: none; padding: 0; }
-    .card-voice:hover { background: rgba(59,130,246,0.35); border-color: rgba(59,130,246,0.7); }
-    .card-voice:active { transform: scale(0.88); }
-    .card-voice svg { width: 13px; height: 13px; fill: #93c5fd; transition: fill 0.2s; }
-    .vocab-card.done .card-voice { background: rgba(34,197,94,0.18); border-color: rgba(34,197,94,0.35); }
-    .vocab-card.done .card-voice svg { fill: #86efac; }
-    .card-voice.speaking { background: rgba(59,130,246,0.5) !important; border-color: #3b82f6 !important; animation: voicePulse 0.6s ease-in-out infinite alternate; }
-    .card-voice.speaking svg { fill: #fff !important; }
-    @keyframes voicePulse { from { box-shadow: 0 0 0 0 rgba(59,130,246,0.5); } to { box-shadow: 0 0 0 6px rgba(59,130,246,0); } }
-    /* Check badge overlaps voice button when card is done */
-    .card-check { position: absolute; top: 7px; right: 7px; width: 26px; height: 26px; border-radius: 50%; background: var(--accent-green); display: flex; align-items: center; justify-content: center; opacity: 0; transform: scale(0.4); transition: opacity 0.25s, transform 0.3s cubic-bezier(.34,1.56,.64,1); z-index: 3; pointer-events: none; }
-    .vocab-card.done .card-check { opacity: 1; transform: scale(1); }
-    .card-check svg { width: 13px; height: 13px; stroke: #fff; stroke-width: 2.5; fill: none; }
-    .empty-state { text-align: center; padding: 60px 20px; color: var(--text-muted); }
-    .empty-state .emoji-big { font-size: 3rem; margin-bottom: 12px; }
-    .empty-state p { font-size: 0.9rem; line-height: 1.6; }
-    .all-done-banner { display: none; background: linear-gradient(135deg, #14532d, #166534); border: 1px solid #22c55e33; border-radius: 14px; padding: 20px; text-align: center; margin-bottom: 16px; }
-    .all-done-banner.show { display: block; }
-    .all-done-banner .big-emoji { font-size: 2.5rem; margin-bottom: 8px; }
-    .all-done-banner h2 { font-size: 1.1rem; color: #4ade80; margin-bottom: 4px; }
-    .all-done-banner p { font-size: 0.8rem; color: #86efac; }
-    .footer-actions { margin-top: 24px; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
-    .btn-reset { font-size: 0.8rem; font-weight: 600; padding: 10px 20px; border-radius: 10px; border: 1.5px solid var(--border); background: transparent; color: var(--text-secondary); cursor: pointer; transition: all 0.2s; -webkit-appearance: none; display: flex; align-items: center; gap: 6px; }
-    .btn-reset:hover { border-color: var(--accent-blue); color: var(--accent-blue); }
-    .btn-reset:active { opacity: 0.7; }
-    .btn-primary { background: var(--accent-blue); border-color: var(--accent-blue); color: #fff; }
-    .btn-primary:hover { background: #2563eb; }
-    #loading-screen { position: fixed; inset: 0; background: var(--bg-primary); display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 999; gap: 16px; }
-    .loader-emoji { font-size: 3rem; animation: pulse 1.5s ease-in-out infinite; }
-    @keyframes pulse { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(0.9); opacity: 0.6; } }
-    .loader-text { font-size: 0.9rem; color: var(--text-secondary); }
-    #toast { position: fixed; bottom: calc(24px + var(--safe-bottom)); left: 50%; transform: translateX(-50%) translateY(80px); background: #1e293b; border: 1px solid var(--border); border-radius: 99px; padding: 10px 20px; font-size: 0.82rem; color: var(--text-primary); white-space: nowrap; z-index: 500; transition: transform 0.3s cubic-bezier(.34,1.56,.64,1), opacity 0.3s; opacity: 0; pointer-events: none; }
-    #toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
-    #ios-banner { display: none; position: fixed; bottom: calc(12px + var(--safe-bottom)); left: 12px; right: 12px; background: #1e293b; border: 1px solid var(--border); border-radius: 16px; padding: 14px 16px; z-index: 200; box-shadow: 0 8px 32px rgba(0,0,0,0.5); }
-    #ios-banner .banner-inner { display: flex; align-items: flex-start; gap: 12px; }
-    #ios-banner .banner-icon { font-size: 1.8rem; flex-shrink: 0; }
-    #ios-banner .banner-text { flex: 1; }
-    #ios-banner .banner-title { font-weight: 700; font-size: 0.9rem; margin-bottom: 3px; }
-    #ios-banner .banner-desc { font-size: 0.75rem; color: var(--text-secondary); line-height: 1.4; }
-    #ios-banner .banner-close { background: transparent; border: none; color: var(--text-muted); font-size: 1.2rem; cursor: pointer; padding: 0; line-height: 1; align-self: flex-start; }
-    @keyframes cardFlip { 0% { transform: rotateY(0deg); } 50% { transform: rotateY(90deg); } 100% { transform: rotateY(0deg); } }
-    .vocab-card.flipping { animation: cardFlip 0.3s ease; }
-    ::-webkit-scrollbar { width: 6px; }
-    ::-webkit-scrollbar-track { background: transparent; }
-    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 99px; }
+    .card-voice{position:absolute;top:7px;right:7px;width:26px;height:26px;border-radius:50%;background:rgba(59,130,246,.18);border:1.5px solid rgba(59,130,246,.35);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:background .2s,transform .15s;z-index:2;-webkit-appearance:none;padding:0}
+    .card-voice:active{transform:scale(.88)}
+    .card-voice svg{width:13px;height:13px;fill:#93c5fd;transition:fill .2s}
+    .vocab-card.done .card-voice{background:rgba(34,197,94,.18);border-color:rgba(34,197,94,.35)}
+    .vocab-card.done .card-voice svg{fill:#86efac}
+    .card-voice.speaking{background:rgba(59,130,246,.5)!important;border-color:#3b82f6!important;animation:vPulse .6s ease-in-out infinite alternate}
+    .card-voice.speaking svg{fill:#fff!important}
+    @keyframes vPulse{from{box-shadow:0 0 0 0 rgba(59,130,246,.5)}to{box-shadow:0 0 0 6px rgba(59,130,246,0)}}
+    /* Check */
+    .card-check{position:absolute;top:7px;right:7px;width:26px;height:26px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center;opacity:0;transform:scale(.4);transition:opacity .25s,transform .3s cubic-bezier(.34,1.56,.64,1);z-index:3;pointer-events:none}
+    .vocab-card.done .card-check{opacity:1;transform:scale(1)}
+    .card-check svg{width:13px;height:13px;stroke:#fff;stroke-width:2.5;fill:none}
+    /* flip anim */
+    @keyframes cardFlip{0%{transform:rotateY(0)}50%{transform:rotateY(90deg)}100%{transform:rotateY(0)}}
+    .vocab-card.flipping{animation:cardFlip .3s ease}
+    /* empty */
+    .empty-state{text-align:center;padding:50px 20px;color:var(--muted);grid-column:1/-1}
+    .empty-state .ei{font-size:2.8rem;margin-bottom:10px}
+    .empty-state p{font-size:.88rem;line-height:1.6}
+    /* actions */
+    .footer-actions{margin-top:20px;display:flex;justify-content:center;gap:8px;flex-wrap:wrap}
+    .btn-action{font-size:.78rem;font-weight:600;padding:9px 18px;border-radius:10px;border:1.5px solid var(--border);background:transparent;color:var(--text2);cursor:pointer;transition:all .2s;-webkit-appearance:none;font-family:var(--font);display:flex;align-items:center;gap:5px}
+    .btn-action:hover{border-color:var(--blue);color:var(--blue)}
+    .btn-action.primary{background:var(--blue);border-color:var(--blue);color:#fff}
+    .btn-action.primary:hover{background:#2563eb}
+
+    /* ── TOAST ── */
+    #toast{position:fixed;bottom:calc(20px + var(--safe-bot));left:50%;transform:translateX(-50%) translateY(80px);background:#1e293b;border:1px solid var(--border);border-radius:99px;padding:9px 18px;font-size:.8rem;color:var(--text);white-space:nowrap;z-index:500;transition:transform .3s cubic-bezier(.34,1.56,.64,1),opacity .3s;opacity:0;pointer-events:none}
+    #toast.show{transform:translateX(-50%) translateY(0);opacity:1}
+
+    /* ── IOS BANNER ── */
+    #ios-banner{display:none;position:fixed;bottom:calc(12px + var(--safe-bot));left:12px;right:12px;background:#1e293b;border:1px solid var(--border);border-radius:16px;padding:14px 16px;z-index:200;box-shadow:0 8px 32px rgba(0,0,0,.5)}
+    #ios-banner .bi{display:flex;align-items:flex-start;gap:12px}
+    #ios-banner .bico{font-size:1.8rem;flex-shrink:0}
+    #ios-banner .btxt{flex:1}
+    #ios-banner .btitle{font-weight:700;font-size:.9rem;margin-bottom:3px}
+    #ios-banner .bdesc{font-size:.73rem;color:var(--text2);line-height:1.4}
+    #ios-banner .bclose{background:transparent;border:none;color:var(--muted);font-size:1.2rem;cursor:pointer;padding:0;line-height:1}
+    ::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:var(--border);border-radius:99px}
   </style>
 </head>
 <body>
+
 <div id="loading-screen">
-  <div class="loader-emoji">📚</div>
-  <div class="loader-text">Memuat kosakata hari ini…</div>
+  <div class="loader-emoji">📖</div>
+  <div class="loader-text">Memuat kosakata…</div>
 </div>
-<header class="app-header">
-  <div class="header-top">
-    <div class="app-title"><span>📖</span> Vocab Harian</div>
-    <div class="date-badge" id="date-badge">–</div>
-  </div>
-  <div class="header-progress">
-    <div class="progress-info">
-      <span class="progress-text">Sudah hapal hari ini</span>
-      <span class="progress-count" id="progress-count">0 / 100</span>
+
+<!-- ═══════════════ HOME VIEW ═══════════════ -->
+<div id="view-home">
+  <div class="app-bar home-bar">
+    <div class="home-title">📖 Vocab Harian</div>
+    <div class="home-sub">
+      <span id="home-total" class="stat-pill">3302 kata</span>
+      <span id="home-memorized" class="stat-pill green">0 hapal</span>
+      <span id="home-cats" class="stat-pill">50 topik</span>
     </div>
-    <div class="progress-bar-track"><div class="progress-bar-fill" id="progress-bar"></div></div>
   </div>
-  <div class="filter-bar">
-    <button class="filter-btn active" data-filter="all">Semua</button>
-    <button class="filter-btn" data-filter="todo">Belum Hapal</button>
-    <button class="filter-btn" data-filter="done">Sudah Hapal ✓</button>
+  <div class="search-bar-wrap" style="padding:10px 12px 0">
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input class="search-input" id="search-input" type="text" placeholder="Cari topik…" autocomplete="off" spellcheck="false" oninput="filterCats(this.value)"/>
+    </div>
   </div>
-</header>
-<main class="main-content" id="main-content">
-  <div class="all-done-banner" id="all-done-banner">
-    <div class="big-emoji">🎉</div>
-    <h2>Luar biasa! Semua hapal!</h2>
-    <p>Kamu sudah menghapal 100 kata hari ini.<br>Datang lagi besok untuk 100 kata baru!</p>
+  <div id="cat-sections"></div>
+</div>
+
+<!-- ═══════════════ WORDS VIEW ═══════════════ -->
+<div id="view-words">
+  <div class="app-bar words-bar">
+    <div class="wh-top">
+      <button class="back-btn" onclick="goHome()">← Semua Topik</button>
+      <span class="words-heading" id="words-title">–</span>
+    </div>
+    <div class="wh-progress">
+      <div class="prog-row">
+        <span class="prog-label">Hapal di topik ini</span>
+        <span class="prog-count" id="words-prog-count">0 / 0</span>
+      </div>
+      <div class="prog-track"><div class="prog-fill" id="words-prog-bar"></div></div>
+    </div>
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">Semua</button>
+      <button class="filter-btn" data-filter="todo">Belum Hapal</button>
+      <button class="filter-btn" data-filter="done">Sudah Hapal ✓</button>
+    </div>
   </div>
-  <div class="section-label" id="section-label">Kata hari ini</div>
-  <div class="cards-grid" id="cards-grid"></div>
-  <div class="footer-actions">
-    <button class="btn-reset" onclick="resetToday()">🔄 Reset Hari Ini</button>
-    <button class="btn-reset btn-primary" onclick="markAllDone()">✅ Hapal Semua</button>
+  <div class="words-main">
+    <div class="cards-grid" id="cards-grid"></div>
+    <div class="footer-actions">
+      <button class="btn-action" onclick="resetCategory()">🔄 Reset Topik</button>
+      <button class="btn-action primary" onclick="markAllDone()">✅ Hapal Semua</button>
+    </div>
   </div>
-</main>
+</div>
+
 <div id="toast"></div>
 <div id="ios-banner">
-  <div class="banner-inner">
-    <div class="banner-icon">📲</div>
-    <div class="banner-text">
-      <div class="banner-title">Install ke Home Screen</div>
-      <div class="banner-desc">Tap ikon <strong>Bagikan</strong> (□↑) lalu pilih <strong>"Add to Home Screen"</strong></div>
+  <div class="bi">
+    <div class="bico">📲</div>
+    <div class="btxt">
+      <div class="btitle">Install ke Home Screen</div>
+      <div class="bdesc">Tap ikon <strong>Bagikan</strong> (□↑) lalu pilih <strong>"Add to Home Screen"</strong></div>
     </div>
-    <button class="banner-close" onclick="dismissIosBanner()">✕</button>
+    <button class="bclose" onclick="dismissIosBanner()">✕</button>
   </div>
 </div>
+
 <script>
-  const LS_MEMORIZED='vh_memorized_ids',LS_DATE='vh_last_date',LS_IOS_BANNER='vh_ios_banner_shown',WORDS_PER_DAY=100;
-  let allWords=[],todayWords=[],memorizedSet=new Set(),currentFilter='all';
+/* ─── CONSTANTS ─── */
+const LS_MEM = 'vh_memorized_ids';
+const LS_IOS = 'vh_ios_banner_shown';
 
-  function todayString(){const d=new Date(),y=d.getFullYear(),m=String(d.getMonth()+1).padStart(2,'0'),dd=String(d.getDate()).padStart(2,'0');return `${y}-${m}-${dd}`;}
-  function getDayOfYear(){const now=new Date(),start=new Date(now.getFullYear(),0,0),diff=now-start,oneDay=86400000;return Math.floor(diff/oneDay);}
-  function readableDate(){return new Date().toLocaleDateString('id-ID',{weekday:'long',day:'numeric',month:'long',year:'numeric'});}
-  function loadMemorized(){try{const r=localStorage.getItem(LS_MEMORIZED);return r?new Set(JSON.parse(r)):new Set();}catch{return new Set();}}
-  function saveMemorized(){localStorage.setItem(LS_MEMORIZED,JSON.stringify([...memorizedSet]));}
-  function checkDateReset(){const s=localStorage.getItem(LS_DATE),t=todayString();if(s!==t){memorizedSet=new Set();localStorage.removeItem(LS_MEMORIZED);localStorage.setItem(LS_DATE,t);if(s)setTimeout(()=>showToast('🌅 Hari baru! Kata-kata direset.'),500);}else{memorizedSet=loadMemorized();}}
-  function getTodayWords(w){const total=w.length,day=getDayOfYear(),grp=Math.ceil(total/WORDS_PER_DAY),idx=(day-1)%grp,start=idx*WORDS_PER_DAY;return w.slice(start,start+WORDS_PER_DAY);}
-  function escapeHtml(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+/* ─── STATE ─── */
+let allWords = [], byCategory = {}, memorizedSet = new Set();
+let currentCat = null, currentFilter = 'all';
+let currentVoiceBtn = null;
 
+/* ─── CATEGORY METADATA ─── */
+const CAT_META = {
+  everyday:     {name:'Kehidupan Sehari-hari', emoji:'🏠', bg:'#1e3a5f'},
+  verbs:        {name:'Kata Kerja',            emoji:'⚡', bg:'#1e3a8a'},
+  adjectives:   {name:'Kata Sifat',            emoji:'✨', bg:'#1e3a8a'},
+  academic:     {name:'Akademik',              emoji:'🎓', bg:'#312e81'},
+  abstract:     {name:'Kata Abstrak',          emoji:'💭', bg:'#312e81'},
+  connectors:   {name:'Kata Penghubung',       emoji:'🔗', bg:'#1e3a8a'},
+  prepositions: {name:'Kata Depan & Frasa',    emoji:'🔤', bg:'#1e3a8a'},
+  grammar:      {name:'Tata Bahasa',           emoji:'📝', bg:'#312e81'},
+  time:         {name:'Waktu',                 emoji:'⏰', bg:'#1e3a8a'},
+  numbers:      {name:'Angka & Kuantitas',     emoji:'🔢', bg:'#1e3a8a'},
+  advanced:     {name:'Kata Tingkat Lanjut',   emoji:'🏆', bg:'#581c87'},
+  health:       {name:'Kesehatan',             emoji:'🏥', bg:'#134e4a'},
+  body:         {name:'Tubuh & Anatomi',       emoji:'🫁', bg:'#134e4a'},
+  psychology:   {name:'Psikologi',             emoji:'🧠', bg:'#1e1b4b'},
+  emotions:     {name:'Emosi & Perasaan',      emoji:'❤️', bg:'#881337'},
+  personality:  {name:'Kepribadian',           emoji:'🌟', bg:'#78350f'},
+  appearance:   {name:'Penampilan Fisik',      emoji:'👁️', bg:'#4a1942'},
+  nature:       {name:'Alam',                  emoji:'🌿', bg:'#14532d'},
+  animals:      {name:'Hewan',                 emoji:'🦁', bg:'#14532d'},
+  food:         {name:'Makanan & Minuman',     emoji:'🍜', bg:'#713f12'},
+  cooking:      {name:'Memasak',               emoji:'👨‍🍳', bg:'#713f12'},
+  weather:      {name:'Cuaca',                 emoji:'⛅', bg:'#0c4a6e'},
+  environment:  {name:'Lingkungan Hidup',      emoji:'🌱', bg:'#14532d'},
+  agriculture:  {name:'Pertanian',             emoji:'🌾', bg:'#3f6212'},
+  space:        {name:'Luar Angkasa',          emoji:'🚀', bg:'#1e1b4b'},
+  science:      {name:'Sains',                 emoji:'🔬', bg:'#581c87'},
+  math:         {name:'Matematika',            emoji:'➗', bg:'#312e81'},
+  cs:           {name:'Ilmu Komputer',         emoji:'👨‍💻', bg:'#1e3a8a'},
+  technology:   {name:'Teknologi',             emoji:'💻', bg:'#1e3a8a'},
+  internet:     {name:'Internet & Medsos',     emoji:'📱', bg:'#0c4a6e'},
+  business:     {name:'Bisnis',                emoji:'💼', bg:'#7c2d12'},
+  finance:      {name:'Keuangan',              emoji:'💰', bg:'#713f12'},
+  career:       {name:'Karier & Pekerjaan',    emoji:'👔', bg:'#7c2d12'},
+  marketing:    {name:'Pemasaran',             emoji:'📊', bg:'#7c2d12'},
+  media:        {name:'Media & Komunikasi',    emoji:'📺', bg:'#1e3a5f'},
+  law:          {name:'Hukum & Politik',       emoji:'⚖️', bg:'#3f3f46'},
+  education:    {name:'Pendidikan',            emoji:'🏫', bg:'#134e4a'},
+  academic_writing:{name:'Penulisan Akademik', emoji:'✍️', bg:'#312e81'},
+  arts:         {name:'Seni & Budaya',         emoji:'🎨', bg:'#881337'},
+  music:        {name:'Musik & Hiburan',       emoji:'🎵', bg:'#881337'},
+  fashion:      {name:'Fashion',               emoji:'👗', bg:'#4a1942'},
+  family:       {name:'Keluarga & Relasi',     emoji:'👨‍👩‍👧', bg:'#7c2d12'},
+  geography:    {name:'Geografi & Tempat',     emoji:'🌍', bg:'#0c4a6e'},
+  philosophy:   {name:'Filsafat',              emoji:'🤔', bg:'#1e1b4b'},
+  religion:     {name:'Agama & Spiritual',     emoji:'🙏', bg:'#78350f'},
+  expressions:  {name:'Ekspresi & Idiom',      emoji:'💬', bg:'#1e3a5f'},
+  sports:       {name:'Olahraga & Fitness',    emoji:'🏃', bg:'#14532d'},
+  travel:       {name:'Perjalanan',            emoji:'✈️', bg:'#0c4a6e'},
+  transport:    {name:'Transportasi',          emoji:'🚗', bg:'#1e3a5f'},
+  construction: {name:'Konstruksi',            emoji:'🏗️', bg:'#292524'},
+  shapes:       {name:'Bentuk & Ukuran',       emoji:'📐', bg:'#1e3a8a'},
+};
 
-  /* =========================================
-     VOICE / TEXT-TO-SPEECH
-  ========================================= */
-  let currentVoiceBtn = null;
+/* ─── CATEGORY SECTIONS (grouped) ─── */
+const SECTIONS = [
+  {title:'📖 Bahasa Dasar',  cats:['everyday','verbs','adjectives','academic','abstract','connectors','time','grammar','prepositions','numbers','advanced','expressions','shapes']},
+  {title:'🧍 Manusia & Pikiran', cats:['health','body','psychology','emotions','personality','appearance','family']},
+  {title:'🌍 Alam & Kehidupan', cats:['nature','animals','food','cooking','weather','environment','agriculture','space']},
+  {title:'🔬 Sains & Teknologi',cats:['science','math','cs','technology','internet']},
+  {title:'💼 Karier & Bisnis',  cats:['business','finance','career','marketing','media','law']},
+  {title:'🎭 Seni & Budaya',    cats:['arts','music','fashion','geography','philosophy','religion']},
+  {title:'🏋️ Aktivitas',        cats:['sports','travel','transport','cooking','construction']},
+  {title:'📚 Akademik Lanjut',  cats:['education','academic_writing']},
+];
 
-  function speakWord(word, btn) {
-    if (!('speechSynthesis' in window)) {
-      showToast('⚠️ Browser tidak mendukung Text-to-Speech');
-      return;
-    }
+/* ─── LOCALSTORAGE ─── */
+function loadMem(){try{const r=localStorage.getItem(LS_MEM);return r?new Set(JSON.parse(r)):new Set()}catch{return new Set()}}
+function saveMem(){localStorage.setItem(LS_MEM,JSON.stringify([...memorizedSet]))}
 
-    // Stop any ongoing speech
-    window.speechSynthesis.cancel();
-
-    // Remove speaking state from previous button
-    if (currentVoiceBtn) currentVoiceBtn.classList.remove('speaking');
-
-    const utter = new SpeechSynthesisUtterance(word);
-    utter.lang = 'en-US';
-    utter.rate = 0.85;   // sedikit lebih lambat agar jelas
-    utter.pitch = 1.0;
-    utter.volume = 1.0;
-
-    // Try to pick a natural English voice
-    const voices = window.speechSynthesis.getVoices();
-    const enVoice = voices.find(v => v.lang === 'en-US' && v.localService) ||
-                    voices.find(v => v.lang === 'en-US') ||
-                    voices.find(v => v.lang.startsWith('en'));
-    if (enVoice) utter.voice = enVoice;
-
-    // Visual feedback: pulse while speaking
-    btn.classList.add('speaking');
-    currentVoiceBtn = btn;
-
-    utter.onend = () => {
-      btn.classList.remove('speaking');
-      if (currentVoiceBtn === btn) currentVoiceBtn = null;
-    };
-    utter.onerror = () => {
-      btn.classList.remove('speaking');
-      if (currentVoiceBtn === btn) currentVoiceBtn = null;
-    };
-
-    window.speechSynthesis.speak(utter);
+/* ─── INIT ─── */
+async function init(){
+  try{
+    const data = await fetch('./data.json').then(r=>{if(!r.ok)throw new Error('Gagal memuat data.json');return r.json()});
+    allWords = data;
+    memorizedSet = loadMem();
+    data.forEach(w=>{
+      const c = w.cat||'general';
+      if(!byCategory[c]) byCategory[c]=[];
+      byCategory[c].push(w);
+    });
+    renderHome();
+    showIosBannerIfNeeded();
+    if('serviceWorker'in navigator) navigator.serviceWorker.register('./sw.js').catch(()=>{});
+  }catch(err){
+    document.getElementById('cards-grid') && (document.getElementById('cards-grid').innerHTML=`<div class="empty-state" style="grid-column:1/-1"><div class="ei">⚠️</div><p>${err.message}</p></div>`);
+    document.getElementById('view-home').style.display='none';
+    document.getElementById('view-words').style.display='flex';
+    document.getElementById('words-title').textContent='Error';
+  }finally{
+    document.getElementById('loading-screen').style.display='none';
   }
+}
 
-  // iOS Safari fix: voices load asynchronously
-  if ('speechSynthesis' in window) {
-    window.speechSynthesis.getVoices();
-    window.speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
+/* ─── HOME ─── */
+function renderHome(){
+  document.getElementById('view-home').style.display='block';
+  document.getElementById('view-words').style.display='none';
+  document.getElementById('home-total').textContent=`${allWords.length} kata total`;
+  document.getElementById('home-memorized').textContent=`${memorizedSet.size} hapal`;
+  document.getElementById('home-cats').textContent=`${Object.keys(byCategory).length} topik`;
+  const container = document.getElementById('cat-sections');
+  container.innerHTML='';
+  SECTIONS.forEach(sec=>{
+    const cats = sec.cats.filter(c=>byCategory[c]);
+    if(!cats.length) return;
+    const sDiv=document.createElement('div');
+    const sTitle=document.createElement('div');
+    sTitle.className='section-title'; sTitle.textContent=sec.title;
+    sDiv.appendChild(sTitle);
+    const grid=document.createElement('div');
+    grid.className='cat-grid';
+    cats.forEach(catKey=>{
+      const words=byCategory[catKey];
+      if(!words) return;
+      const meta=CAT_META[catKey]||{name:catKey,emoji:'📖',bg:'#1e3a5f'};
+      const done=words.filter(w=>memorizedSet.has(w.id)).length;
+      const pct=words.length>0?(done/words.length)*100:0;
+      const isAll=done===words.length&&words.length>0;
+      const card=document.createElement('div');
+      card.className='cat-card';
+      card.dataset.catkey=catKey;
+      card.dataset.catname=(meta.name+' '+meta.emoji).toLowerCase();
+      card.style.setProperty('--cat-bg',meta.bg);
+      card.innerHTML=`<span class="cat-emoji">${meta.emoji}</span><div class="cat-name">${meta.name}</div><div class="cat-count">${words.length} kata</div><div class="cat-prog"><div class="cat-prog-fill${isAll?' full':''}" style="width:${pct}%"></div></div><div class="cat-done-text${isAll?' all':''}">${isAll?'✓ Semua hapal!':done>0?`✓ ${done} hapal`:'Belum ada'}</div>`;
+      card.addEventListener('click',()=>enterCategory(catKey));
+      grid.appendChild(card);
+    });
+    sDiv.appendChild(grid);
+    container.appendChild(sDiv);
+  });
+  // scroll back to top
+  window.scrollTo({top:0,behavior:'instant'});
+}
+
+function filterCats(q){
+  const kw=q.toLowerCase().trim();
+  document.querySelectorAll('.cat-card').forEach(c=>{
+    const match=!kw||c.dataset.catname.includes(kw)||c.querySelector('.cat-name').textContent.toLowerCase().includes(kw);
+    c.classList.toggle('hidden',!match);
+  });
+  document.querySelectorAll('.section-title').forEach(st=>{
+    const section=st.nextElementSibling;
+    if(!section) return;
+    const hasVisible=[...section.querySelectorAll('.cat-card')].some(c=>!c.classList.contains('hidden'));
+    st.style.display=hasVisible?'':'none';
+    section.style.display=hasVisible?'':'none';
+  });
+}
+
+/* ─── ENTER CATEGORY ─── */
+function enterCategory(catKey){
+  currentCat=catKey;
+  currentFilter='all';
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  document.querySelector('[data-filter="all"]').classList.add('active');
+  const meta=CAT_META[catKey]||{name:catKey,emoji:'📖'};
+  document.getElementById('words-title').textContent=`${meta.emoji} ${meta.name}`;
+  document.getElementById('view-home').style.display='none';
+  document.getElementById('view-words').style.display='flex';
+  renderWords();
+  window.scrollTo({top:0,behavior:'instant'});
+}
+
+function goHome(){renderHome();}
+
+/* ─── RENDER WORDS ─── */
+function renderWords(){
+  const words=byCategory[currentCat]||[];
+  const done=words.filter(w=>memorizedSet.has(w.id)).length;
+  const pct=words.length>0?(done/words.length)*100:0;
+  document.getElementById('words-prog-count').textContent=`${done} / ${words.length}`;
+  document.getElementById('words-prog-bar').style.width=`${pct}%`;
+  let vis=words;
+  if(currentFilter==='done') vis=words.filter(w=>memorizedSet.has(w.id));
+  if(currentFilter==='todo') vis=words.filter(w=>!memorizedSet.has(w.id));
+  const grid=document.getElementById('cards-grid');
+  grid.innerHTML='';
+  if(!vis.length){
+    const e=document.createElement('div');e.className='empty-state';
+    e.innerHTML=currentFilter==='done'?'<div class="ei">📝</div><p>Belum ada yang dihapal.<br>Tap kartu biru untuk hapal!</p>':'<div class="ei">🎉</div><p>Semua kata sudah dihapal!</p>';
+    grid.appendChild(e);return;
   }
+  vis.forEach((word,i)=>{
+    const isDone=memorizedSet.has(word.id);
+    const card=document.createElement('div');
+    card.className='vocab-card'+(isDone?' done':'');
+    card.dataset.id=word.id;
+    card.innerHTML=`<div class="card-num">#${String(i+1).padStart(3,'0')}</div><div class="card-en">${esc(word.en)}</div><div class="card-id">${esc(word.id_)}</div><button class="card-voice" title="Dengar"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11 5L6 9H2v6h4l5 4V5zm6.07 1.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button><div class="card-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>`;
+    const vb=card.querySelector('.card-voice');
+    vb.addEventListener('click',e=>{e.stopPropagation();speakWord(word.en,vb)});
+    card.addEventListener('click',()=>toggleCard(word.id,card));
+    grid.appendChild(card);
+  });
+}
 
-  function renderCards(){
-    const grid=document.getElementById('cards-grid');grid.innerHTML='';
-    let vis=currentFilter==='done'?todayWords.filter(w=>memorizedSet.has(w.id)):currentFilter==='todo'?todayWords.filter(w=>!memorizedSet.has(w.id)):todayWords;
-    if(!vis.length){const e=document.createElement('div');e.className='empty-state';e.style.gridColumn='1/-1';e.innerHTML=currentFilter==='done'?'<div class="emoji-big">📝</div><p>Belum ada kata yang dihapal.<br>Tap kartu biru!</p>':'<div class="emoji-big">🎉</div><p>Semua kata sudah dihapal!</p>';grid.appendChild(e);return;}
-    vis.forEach((word,i)=>{const done=memorizedSet.has(word.id),card=document.createElement('div');card.className='vocab-card'+(done?' done':'');card.dataset.id=word.id;card.innerHTML=`<div class="card-num">#${String(i+1).padStart(3,'0')}</div><div class="card-en">${escapeHtml(word.en)}</div><div class="card-id">${escapeHtml(word.id_)}</div><button class="card-voice" title="Dengar pengucapan"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11 5L6 9H2v6h4l5 4V5zm6.07 1.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button><div class="card-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg></div>`;const vBtn=card.querySelector('.card-voice');vBtn.addEventListener('click',e=>{e.stopPropagation();speakWord(word.en,vBtn);});card.addEventListener('click',()=>toggleCard(word.id,card));grid.appendChild(card);});
-  }
+/* ─── TOGGLE CARD ─── */
+function toggleCard(wordId,cardEl){
+  cardEl.classList.add('flipping');
+  setTimeout(()=>cardEl.classList.remove('flipping'),300);
+  if(memorizedSet.has(wordId)){memorizedSet.delete(wordId);cardEl.classList.remove('done')}
+  else{memorizedSet.add(wordId);cardEl.classList.add('done')}
+  saveMem();
+  // update progress bar only (no full re-render)
+  const words=byCategory[currentCat]||[];
+  const done=words.filter(w=>memorizedSet.has(w.id)).length;
+  const pct=words.length>0?(done/words.length)*100:0;
+  document.getElementById('words-prog-count').textContent=`${done} / ${words.length}`;
+  document.getElementById('words-prog-bar').style.width=`${pct}%`;
+  if(currentFilter!=='all') setTimeout(()=>renderWords(),350);
+}
 
-  function toggleCard(wordId,cardEl){
-    cardEl.classList.add('flipping');setTimeout(()=>cardEl.classList.remove('flipping'),300);
-    if(memorizedSet.has(wordId)){memorizedSet.delete(wordId);cardEl.classList.remove('done');}
-    else{memorizedSet.add(wordId);cardEl.classList.add('done');}
-    saveMemorized();updateProgress();checkAllDone();
-    if(currentFilter!=='all')setTimeout(()=>{renderCards();updateSectionLabel();},350);
-  }
+/* ─── ACTIONS ─── */
+function resetCategory(){
+  if(!confirm('Reset semua hapalan di topik ini?'))return;
+  const words=byCategory[currentCat]||[];
+  words.forEach(w=>memorizedSet.delete(w.id));
+  saveMem();renderWords();showToast('🔄 Hapalan topik ini direset!');
+}
+function markAllDone(){
+  const words=byCategory[currentCat]||[];
+  words.forEach(w=>memorizedSet.add(w.id));
+  saveMem();renderWords();showToast('✅ Semua kata ditandai hapal!');
+}
 
-  function updateProgress(){const t=todayWords.length,d=todayWords.filter(w=>memorizedSet.has(w.id)).length,p=t>0?(d/t)*100:0;document.getElementById('progress-count').textContent=`${d} / ${t}`;document.getElementById('progress-bar').style.width=`${p}%`;}
-  function checkAllDone(){const t=todayWords.length,d=todayWords.filter(w=>memorizedSet.has(w.id)).length,b=document.getElementById('all-done-banner');d===t&&t>0?b.classList.add('show'):b.classList.remove('show');}
-  function updateSectionLabel(){const l=document.getElementById('section-label'),day=getDayOfYear(),total=allWords.length,grp=Math.ceil(total/WORDS_PER_DAY),idx=(day-1)%grp,start=idx*WORDS_PER_DAY+1,end=Math.min(start+WORDS_PER_DAY-1,total);l.textContent=`Kata ke-${start} s/d ${end} dari ${total} total`;}
+/* ─── FILTER BUTTONS ─── */
+document.querySelectorAll('.filter-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    currentFilter=btn.dataset.filter;
+    renderWords();
+  });
+});
 
-  document.querySelectorAll('.filter-btn').forEach(btn=>{btn.addEventListener('click',()=>{document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');currentFilter=btn.dataset.filter;renderCards();});});
+/* ─── VOICE ─── */
+function speakWord(word,btn){
+  if(!('speechSynthesis'in window)){showToast('⚠️ Browser tidak mendukung TTS');return}
+  window.speechSynthesis.cancel();
+  if(currentVoiceBtn) currentVoiceBtn.classList.remove('speaking');
+  const u=new SpeechSynthesisUtterance(word);
+  u.lang='en-US';u.rate=0.85;u.pitch=1;u.volume=1;
+  const voices=window.speechSynthesis.getVoices();
+  const v=voices.find(v=>v.lang==='en-US'&&v.localService)||voices.find(v=>v.lang==='en-US')||voices.find(v=>v.lang.startsWith('en'));
+  if(v) u.voice=v;
+  btn.classList.add('speaking');currentVoiceBtn=btn;
+  u.onend=u.onerror=()=>{btn.classList.remove('speaking');if(currentVoiceBtn===btn)currentVoiceBtn=null};
+  window.speechSynthesis.speak(u);
+}
+if('speechSynthesis'in window){window.speechSynthesis.getVoices();window.speechSynthesis.onvoiceschanged=()=>window.speechSynthesis.getVoices()}
 
-  function resetToday(){if(!confirm('Reset semua hapalan hari ini?'))return;memorizedSet=new Set();saveMemorized();renderCards();updateProgress();checkAllDone();showToast('🔄 Hapalan hari ini direset!');}
-  function markAllDone(){todayWords.forEach(w=>memorizedSet.add(w.id));saveMemorized();renderCards();updateProgress();checkAllDone();showToast('✅ Semua kata ditandai hapal!');}
+/* ─── UTILS ─── */
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+let toastTimer=null;
+function showToast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),2800)}
+function isIos(){return/iphone|ipad|ipod/i.test(navigator.userAgent)}
+function isStandalone(){return window.navigator.standalone===true}
+function showIosBannerIfNeeded(){if(isIos()&&!isStandalone()&&!localStorage.getItem(LS_IOS))setTimeout(()=>document.getElementById('ios-banner').style.display='block',2000)}
+function dismissIosBanner(){document.getElementById('ios-banner').style.display='none';localStorage.setItem(LS_IOS,'1')}
 
-  let toastTimer=null;
-  function showToast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),2800);}
-
-  function isIos(){return /iphone|ipad|ipod/i.test(navigator.userAgent);}
-  function isStandalone(){return window.navigator.standalone===true;}
-  function showIosBannerIfNeeded(){if(isIos()&&!isStandalone()&&!localStorage.getItem(LS_IOS_BANNER))setTimeout(()=>{document.getElementById('ios-banner').style.display='block';},2000);}
-  function dismissIosBanner(){document.getElementById('ios-banner').style.display='none';localStorage.setItem(LS_IOS_BANNER,'1');}
-
-  async function init(){
-    try{
-      const res=await fetch('./data.json');
-      if(!res.ok)throw new Error('Gagal memuat data.json');
-      allWords=await res.json();
-      checkDateReset();
-      todayWords=getTodayWords(allWords);
-      document.getElementById('date-badge').textContent=readableDate();
-      renderCards();updateProgress();checkAllDone();updateSectionLabel();
-      showIosBannerIfNeeded();
-      if('serviceWorker' in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});
-    }catch(err){
-      console.error(err);
-      document.getElementById('cards-grid').innerHTML=`<div class="empty-state" style="grid-column:1/-1"><div class="emoji-big">⚠️</div><p>Gagal memuat data.<br>${err.message}</p></div>`;
-    }finally{document.getElementById('loading-screen').style.display='none';}
-  }
-  init();
+init();
 </script>
 </body>
 </html>
