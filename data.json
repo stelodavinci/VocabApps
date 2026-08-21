@@ -1,0 +1,5922 @@
+﻿[
+    {
+        "id":  1,
+        "en":  "abandon",
+        "id_":  "meninggalkan"
+    },
+    {
+        "id":  2,
+        "en":  "ability",
+        "id_":  "kemampuan"
+    },
+    {
+        "id":  3,
+        "en":  "absence",
+        "id_":  "ketidakhadiran"
+    },
+    {
+        "id":  4,
+        "en":  "absolute",
+        "id_":  "mutlak"
+    },
+    {
+        "id":  5,
+        "en":  "absorb",
+        "id_":  "menyerap"
+    },
+    {
+        "id":  6,
+        "en":  "abstract",
+        "id_":  "abstrak"
+    },
+    {
+        "id":  7,
+        "en":  "abundant",
+        "id_":  "berlimpah"
+    },
+    {
+        "id":  8,
+        "en":  "academic",
+        "id_":  "akademis"
+    },
+    {
+        "id":  9,
+        "en":  "accept",
+        "id_":  "menerima"
+    },
+    {
+        "id":  10,
+        "en":  "accident",
+        "id_":  "kecelakaan"
+    },
+    {
+        "id":  11,
+        "en":  "accomplish",
+        "id_":  "menyelesaikan"
+    },
+    {
+        "id":  12,
+        "en":  "accurate",
+        "id_":  "akurat"
+    },
+    {
+        "id":  13,
+        "en":  "achieve",
+        "id_":  "mencapai"
+    },
+    {
+        "id":  14,
+        "en":  "acknowledge",
+        "id_":  "mengakui"
+    },
+    {
+        "id":  15,
+        "en":  "acquire",
+        "id_":  "mendapatkan"
+    },
+    {
+        "id":  16,
+        "en":  "active",
+        "id_":  "aktif"
+    },
+    {
+        "id":  17,
+        "en":  "adapt",
+        "id_":  "menyesuaikan"
+    },
+    {
+        "id":  18,
+        "en":  "adequate",
+        "id_":  "memadai"
+    },
+    {
+        "id":  19,
+        "en":  "admire",
+        "id_":  "mengagumi"
+    },
+    {
+        "id":  20,
+        "en":  "admit",
+        "id_":  "mengakui"
+    },
+    {
+        "id":  21,
+        "en":  "adopt",
+        "id_":  "mengadopsi"
+    },
+    {
+        "id":  22,
+        "en":  "advance",
+        "id_":  "memajukan"
+    },
+    {
+        "id":  23,
+        "en":  "advantage",
+        "id_":  "keuntungan"
+    },
+    {
+        "id":  24,
+        "en":  "advice",
+        "id_":  "saran"
+    },
+    {
+        "id":  25,
+        "en":  "affect",
+        "id_":  "mempengaruhi"
+    },
+    {
+        "id":  26,
+        "en":  "afford",
+        "id_":  "mampu membeli"
+    },
+    {
+        "id":  27,
+        "en":  "afraid",
+        "id_":  "takut"
+    },
+    {
+        "id":  28,
+        "en":  "agree",
+        "id_":  "setuju"
+    },
+    {
+        "id":  29,
+        "en":  "aim",
+        "id_":  "tujuan"
+    },
+    {
+        "id":  30,
+        "en":  "allow",
+        "id_":  "mengizinkan"
+    },
+    {
+        "id":  31,
+        "en":  "alternative",
+        "id_":  "alternatif"
+    },
+    {
+        "id":  32,
+        "en":  "amazing",
+        "id_":  "menakjubkan"
+    },
+    {
+        "id":  33,
+        "en":  "ambitious",
+        "id_":  "ambisius"
+    },
+    {
+        "id":  34,
+        "en":  "analyze",
+        "id_":  "menganalisis"
+    },
+    {
+        "id":  35,
+        "en":  "ancient",
+        "id_":  "kuno"
+    },
+    {
+        "id":  36,
+        "en":  "anger",
+        "id_":  "kemarahan"
+    },
+    {
+        "id":  37,
+        "en":  "announce",
+        "id_":  "mengumumkan"
+    },
+    {
+        "id":  38,
+        "en":  "anxious",
+        "id_":  "cemas"
+    },
+    {
+        "id":  39,
+        "en":  "appear",
+        "id_":  "muncul"
+    },
+    {
+        "id":  40,
+        "en":  "apply",
+        "id_":  "menerapkan"
+    },
+    {
+        "id":  41,
+        "en":  "appropriate",
+        "id_":  "tepat"
+    },
+    {
+        "id":  42,
+        "en":  "argue",
+        "id_":  "berdebat"
+    },
+    {
+        "id":  43,
+        "en":  "arrange",
+        "id_":  "mengatur"
+    },
+    {
+        "id":  44,
+        "en":  "arrive",
+        "id_":  "tiba"
+    },
+    {
+        "id":  45,
+        "en":  "article",
+        "id_":  "artikel"
+    },
+    {
+        "id":  46,
+        "en":  "aspect",
+        "id_":  "aspek"
+    },
+    {
+        "id":  47,
+        "en":  "assess",
+        "id_":  "menilai"
+    },
+    {
+        "id":  48,
+        "en":  "assist",
+        "id_":  "membantu"
+    },
+    {
+        "id":  49,
+        "en":  "assume",
+        "id_":  "mengasumsikan"
+    },
+    {
+        "id":  50,
+        "en":  "attach",
+        "id_":  "melampirkan"
+    },
+    {
+        "id":  51,
+        "en":  "attempt",
+        "id_":  "mencoba"
+    },
+    {
+        "id":  52,
+        "en":  "attitude",
+        "id_":  "sikap"
+    },
+    {
+        "id":  53,
+        "en":  "attract",
+        "id_":  "menarik"
+    },
+    {
+        "id":  54,
+        "en":  "audience",
+        "id_":  "penonton"
+    },
+    {
+        "id":  55,
+        "en":  "available",
+        "id_":  "tersedia"
+    },
+    {
+        "id":  56,
+        "en":  "avoid",
+        "id_":  "menghindari"
+    },
+    {
+        "id":  57,
+        "en":  "aware",
+        "id_":  "sadar"
+    },
+    {
+        "id":  58,
+        "en":  "awful",
+        "id_":  "mengerikan"
+    },
+    {
+        "id":  59,
+        "en":  "balance",
+        "id_":  "keseimbangan"
+    },
+    {
+        "id":  60,
+        "en":  "barrier",
+        "id_":  "hambatan"
+    },
+    {
+        "id":  61,
+        "en":  "basis",
+        "id_":  "dasar"
+    },
+    {
+        "id":  62,
+        "en":  "behave",
+        "id_":  "berperilaku"
+    },
+    {
+        "id":  63,
+        "en":  "belief",
+        "id_":  "keyakinan"
+    },
+    {
+        "id":  64,
+        "en":  "benefit",
+        "id_":  "manfaat"
+    },
+    {
+        "id":  65,
+        "en":  "blame",
+        "id_":  "menyalahkan"
+    },
+    {
+        "id":  66,
+        "en":  "brave",
+        "id_":  "berani"
+    },
+    {
+        "id":  67,
+        "en":  "brief",
+        "id_":  "singkat"
+    },
+    {
+        "id":  68,
+        "en":  "brilliant",
+        "id_":  "cemerlang"
+    },
+    {
+        "id":  69,
+        "en":  "broad",
+        "id_":  "luas"
+    },
+    {
+        "id":  70,
+        "en":  "budget",
+        "id_":  "anggaran"
+    },
+    {
+        "id":  71,
+        "en":  "burden",
+        "id_":  "beban"
+    },
+    {
+        "id":  72,
+        "en":  "calm",
+        "id_":  "tenang"
+    },
+    {
+        "id":  73,
+        "en":  "capable",
+        "id_":  "mampu"
+    },
+    {
+        "id":  74,
+        "en":  "capture",
+        "id_":  "menangkap"
+    },
+    {
+        "id":  75,
+        "en":  "care",
+        "id_":  "peduli"
+    },
+    {
+        "id":  76,
+        "en":  "category",
+        "id_":  "kategori"
+    },
+    {
+        "id":  77,
+        "en":  "cause",
+        "id_":  "penyebab"
+    },
+    {
+        "id":  78,
+        "en":  "certain",
+        "id_":  "pasti"
+    },
+    {
+        "id":  79,
+        "en":  "challenge",
+        "id_":  "tantangan"
+    },
+    {
+        "id":  80,
+        "en":  "character",
+        "id_":  "karakter"
+    },
+    {
+        "id":  81,
+        "en":  "choose",
+        "id_":  "memilih"
+    },
+    {
+        "id":  82,
+        "en":  "clarify",
+        "id_":  "memperjelas"
+    },
+    {
+        "id":  83,
+        "en":  "classify",
+        "id_":  "mengklasifikasikan"
+    },
+    {
+        "id":  84,
+        "en":  "clever",
+        "id_":  "cerdas"
+    },
+    {
+        "id":  85,
+        "en":  "collect",
+        "id_":  "mengumpulkan"
+    },
+    {
+        "id":  86,
+        "en":  "combine",
+        "id_":  "menggabungkan"
+    },
+    {
+        "id":  87,
+        "en":  "comment",
+        "id_":  "komentar"
+    },
+    {
+        "id":  88,
+        "en":  "communicate",
+        "id_":  "berkomunikasi"
+    },
+    {
+        "id":  89,
+        "en":  "compare",
+        "id_":  "membandingkan"
+    },
+    {
+        "id":  90,
+        "en":  "compete",
+        "id_":  "bersaing"
+    },
+    {
+        "id":  91,
+        "en":  "complete",
+        "id_":  "menyelesaikan"
+    },
+    {
+        "id":  92,
+        "en":  "complex",
+        "id_":  "kompleks"
+    },
+    {
+        "id":  93,
+        "en":  "concept",
+        "id_":  "konsep"
+    },
+    {
+        "id":  94,
+        "en":  "concern",
+        "id_":  "kekhawatiran"
+    },
+    {
+        "id":  95,
+        "en":  "confident",
+        "id_":  "percaya diri"
+    },
+    {
+        "id":  96,
+        "en":  "confirm",
+        "id_":  "mengkonfirmasi"
+    },
+    {
+        "id":  97,
+        "en":  "connect",
+        "id_":  "menghubungkan"
+    },
+    {
+        "id":  98,
+        "en":  "consider",
+        "id_":  "mempertimbangkan"
+    },
+    {
+        "id":  99,
+        "en":  "consistent",
+        "id_":  "konsisten"
+    },
+    {
+        "id":  100,
+        "en":  "contain",
+        "id_":  "mengandung"
+    },
+    {
+        "id":  101,
+        "en":  "contribute",
+        "id_":  "berkontribusi"
+    },
+    {
+        "id":  102,
+        "en":  "control",
+        "id_":  "mengendalikan"
+    },
+    {
+        "id":  103,
+        "en":  "convince",
+        "id_":  "meyakinkan"
+    },
+    {
+        "id":  104,
+        "en":  "cooperate",
+        "id_":  "bekerja sama"
+    },
+    {
+        "id":  105,
+        "en":  "correct",
+        "id_":  "benar"
+    },
+    {
+        "id":  106,
+        "en":  "create",
+        "id_":  "menciptakan"
+    },
+    {
+        "id":  107,
+        "en":  "creative",
+        "id_":  "kreatif"
+    },
+    {
+        "id":  108,
+        "en":  "critical",
+        "id_":  "kritis"
+    },
+    {
+        "id":  109,
+        "en":  "curious",
+        "id_":  "penasaran"
+    },
+    {
+        "id":  110,
+        "en":  "damage",
+        "id_":  "kerusakan"
+    },
+    {
+        "id":  111,
+        "en":  "deal",
+        "id_":  "menangani"
+    },
+    {
+        "id":  112,
+        "en":  "decide",
+        "id_":  "memutuskan"
+    },
+    {
+        "id":  113,
+        "en":  "declare",
+        "id_":  "menyatakan"
+    },
+    {
+        "id":  114,
+        "en":  "decrease",
+        "id_":  "menurun"
+    },
+    {
+        "id":  115,
+        "en":  "define",
+        "id_":  "mendefinisikan"
+    },
+    {
+        "id":  116,
+        "en":  "describe",
+        "id_":  "menggambarkan"
+    },
+    {
+        "id":  117,
+        "en":  "detail",
+        "id_":  "rincian"
+    },
+    {
+        "id":  118,
+        "en":  "develop",
+        "id_":  "mengembangkan"
+    },
+    {
+        "id":  119,
+        "en":  "differ",
+        "id_":  "berbeda"
+    },
+    {
+        "id":  120,
+        "en":  "difficult",
+        "id_":  "sulit"
+    },
+    {
+        "id":  121,
+        "en":  "discover",
+        "id_":  "menemukan"
+    },
+    {
+        "id":  122,
+        "en":  "discuss",
+        "id_":  "mendiskusikan"
+    },
+    {
+        "id":  123,
+        "en":  "display",
+        "id_":  "menampilkan"
+    },
+    {
+        "id":  124,
+        "en":  "distribute",
+        "id_":  "mendistribusikan"
+    },
+    {
+        "id":  125,
+        "en":  "diverse",
+        "id_":  "beragam"
+    },
+    {
+        "id":  126,
+        "en":  "divide",
+        "id_":  "membagi"
+    },
+    {
+        "id":  127,
+        "en":  "doubt",
+        "id_":  "keraguan"
+    },
+    {
+        "id":  128,
+        "en":  "drive",
+        "id_":  "mendorong"
+    },
+    {
+        "id":  129,
+        "en":  "dynamic",
+        "id_":  "dinamis"
+    },
+    {
+        "id":  130,
+        "en":  "earn",
+        "id_":  "mendapatkan"
+    },
+    {
+        "id":  131,
+        "en":  "educate",
+        "id_":  "mendidik"
+    },
+    {
+        "id":  132,
+        "en":  "effective",
+        "id_":  "efektif"
+    },
+    {
+        "id":  133,
+        "en":  "efficient",
+        "id_":  "efisien"
+    },
+    {
+        "id":  134,
+        "en":  "effort",
+        "id_":  "usaha"
+    },
+    {
+        "id":  135,
+        "en":  "elaborate",
+        "id_":  "menguraikan"
+    },
+    {
+        "id":  136,
+        "en":  "eliminate",
+        "id_":  "menghilangkan"
+    },
+    {
+        "id":  137,
+        "en":  "embrace",
+        "id_":  "merangkul"
+    },
+    {
+        "id":  138,
+        "en":  "emerge",
+        "id_":  "muncul"
+    },
+    {
+        "id":  139,
+        "en":  "emphasize",
+        "id_":  "menekankan"
+    },
+    {
+        "id":  140,
+        "en":  "encounter",
+        "id_":  "menemui"
+    },
+    {
+        "id":  141,
+        "en":  "encourage",
+        "id_":  "mendorong"
+    },
+    {
+        "id":  142,
+        "en":  "enhance",
+        "id_":  "meningkatkan"
+    },
+    {
+        "id":  143,
+        "en":  "ensure",
+        "id_":  "memastikan"
+    },
+    {
+        "id":  144,
+        "en":  "environment",
+        "id_":  "lingkungan"
+    },
+    {
+        "id":  145,
+        "en":  "essential",
+        "id_":  "penting"
+    },
+    {
+        "id":  146,
+        "en":  "establish",
+        "id_":  "mendirikan"
+    },
+    {
+        "id":  147,
+        "en":  "estimate",
+        "id_":  "memperkirakan"
+    },
+    {
+        "id":  148,
+        "en":  "evaluate",
+        "id_":  "mengevaluasi"
+    },
+    {
+        "id":  149,
+        "en":  "examine",
+        "id_":  "memeriksa"
+    },
+    {
+        "id":  150,
+        "en":  "exceed",
+        "id_":  "melampaui"
+    },
+    {
+        "id":  151,
+        "en":  "expect",
+        "id_":  "mengharapkan"
+    },
+    {
+        "id":  152,
+        "en":  "explain",
+        "id_":  "menjelaskan"
+    },
+    {
+        "id":  153,
+        "en":  "explore",
+        "id_":  "menjelajahi"
+    },
+    {
+        "id":  154,
+        "en":  "express",
+        "id_":  "mengungkapkan"
+    },
+    {
+        "id":  155,
+        "en":  "facilitate",
+        "id_":  "memfasilitasi"
+    },
+    {
+        "id":  156,
+        "en":  "factor",
+        "id_":  "faktor"
+    },
+    {
+        "id":  157,
+        "en":  "familiar",
+        "id_":  "familiar"
+    },
+    {
+        "id":  158,
+        "en":  "feature",
+        "id_":  "fitur"
+    },
+    {
+        "id":  159,
+        "en":  "focus",
+        "id_":  "fokus"
+    },
+    {
+        "id":  160,
+        "en":  "force",
+        "id_":  "kekuatan"
+    },
+    {
+        "id":  161,
+        "en":  "form",
+        "id_":  "bentuk"
+    },
+    {
+        "id":  162,
+        "en":  "formal",
+        "id_":  "formal"
+    },
+    {
+        "id":  163,
+        "en":  "frequent",
+        "id_":  "sering"
+    },
+    {
+        "id":  164,
+        "en":  "function",
+        "id_":  "fungsi"
+    },
+    {
+        "id":  165,
+        "en":  "fundamental",
+        "id_":  "fundamental"
+    },
+    {
+        "id":  166,
+        "en":  "gain",
+        "id_":  "mendapatkan"
+    },
+    {
+        "id":  167,
+        "en":  "generate",
+        "id_":  "menghasilkan"
+    },
+    {
+        "id":  168,
+        "en":  "genuine",
+        "id_":  "asli"
+    },
+    {
+        "id":  169,
+        "en":  "goal",
+        "id_":  "tujuan"
+    },
+    {
+        "id":  170,
+        "en":  "grow",
+        "id_":  "tumbuh"
+    },
+    {
+        "id":  171,
+        "en":  "guide",
+        "id_":  "panduan"
+    },
+    {
+        "id":  172,
+        "en":  "handle",
+        "id_":  "menangani"
+    },
+    {
+        "id":  173,
+        "en":  "happen",
+        "id_":  "terjadi"
+    },
+    {
+        "id":  174,
+        "en":  "helpful",
+        "id_":  "membantu"
+    },
+    {
+        "id":  175,
+        "en":  "honest",
+        "id_":  "jujur"
+    },
+    {
+        "id":  176,
+        "en":  "identify",
+        "id_":  "mengidentifikasi"
+    },
+    {
+        "id":  177,
+        "en":  "ignore",
+        "id_":  "mengabaikan"
+    },
+    {
+        "id":  178,
+        "en":  "impact",
+        "id_":  "dampak"
+    },
+    {
+        "id":  179,
+        "en":  "implement",
+        "id_":  "melaksanakan"
+    },
+    {
+        "id":  180,
+        "en":  "improve",
+        "id_":  "meningkatkan"
+    },
+    {
+        "id":  181,
+        "en":  "include",
+        "id_":  "mencakup"
+    },
+    {
+        "id":  182,
+        "en":  "increase",
+        "id_":  "meningkat"
+    },
+    {
+        "id":  183,
+        "en":  "influence",
+        "id_":  "pengaruh"
+    },
+    {
+        "id":  184,
+        "en":  "inform",
+        "id_":  "menginformasikan"
+    },
+    {
+        "id":  185,
+        "en":  "innovate",
+        "id_":  "berinovasi"
+    },
+    {
+        "id":  186,
+        "en":  "inspire",
+        "id_":  "menginspirasi"
+    },
+    {
+        "id":  187,
+        "en":  "integrate",
+        "id_":  "mengintegrasikan"
+    },
+    {
+        "id":  188,
+        "en":  "interpret",
+        "id_":  "menafsirkan"
+    },
+    {
+        "id":  189,
+        "en":  "involve",
+        "id_":  "melibatkan"
+    },
+    {
+        "id":  190,
+        "en":  "issue",
+        "id_":  "masalah"
+    },
+    {
+        "id":  191,
+        "en":  "judge",
+        "id_":  "menilai"
+    },
+    {
+        "id":  192,
+        "en":  "justify",
+        "id_":  "membenarkan"
+    },
+    {
+        "id":  193,
+        "en":  "knowledge",
+        "id_":  "pengetahuan"
+    },
+    {
+        "id":  194,
+        "en":  "launch",
+        "id_":  "meluncurkan"
+    },
+    {
+        "id":  195,
+        "en":  "lead",
+        "id_":  "memimpin"
+    },
+    {
+        "id":  196,
+        "en":  "logical",
+        "id_":  "logis"
+    },
+    {
+        "id":  197,
+        "en":  "maintain",
+        "id_":  "mempertahankan"
+    },
+    {
+        "id":  198,
+        "en":  "manage",
+        "id_":  "mengelola"
+    },
+    {
+        "id":  199,
+        "en":  "measure",
+        "id_":  "mengukur"
+    },
+    {
+        "id":  200,
+        "en":  "method",
+        "id_":  "metode"
+    },
+    {
+        "id":  201,
+        "en":  "minimize",
+        "id_":  "meminimalkan"
+    },
+    {
+        "id":  202,
+        "en":  "monitor",
+        "id_":  "memantau"
+    },
+    {
+        "id":  203,
+        "en":  "motivate",
+        "id_":  "memotivasi"
+    },
+    {
+        "id":  204,
+        "en":  "negative",
+        "id_":  "negatif"
+    },
+    {
+        "id":  205,
+        "en":  "notify",
+        "id_":  "memberitahu"
+    },
+    {
+        "id":  206,
+        "en":  "objective",
+        "id_":  "objektif"
+    },
+    {
+        "id":  207,
+        "en":  "observe",
+        "id_":  "mengamati"
+    },
+    {
+        "id":  208,
+        "en":  "obtain",
+        "id_":  "mendapatkan"
+    },
+    {
+        "id":  209,
+        "en":  "organize",
+        "id_":  "mengorganisir"
+    },
+    {
+        "id":  210,
+        "en":  "overcome",
+        "id_":  "mengatasi"
+    },
+    {
+        "id":  211,
+        "en":  "participate",
+        "id_":  "berpartisipasi"
+    },
+    {
+        "id":  212,
+        "en":  "perceive",
+        "id_":  "mempersepsikan"
+    },
+    {
+        "id":  213,
+        "en":  "perform",
+        "id_":  "melakukan"
+    },
+    {
+        "id":  214,
+        "en":  "plan",
+        "id_":  "merencanakan"
+    },
+    {
+        "id":  215,
+        "en":  "positive",
+        "id_":  "positif"
+    },
+    {
+        "id":  216,
+        "en":  "practice",
+        "id_":  "berlatih"
+    },
+    {
+        "id":  217,
+        "en":  "prepare",
+        "id_":  "mempersiapkan"
+    },
+    {
+        "id":  218,
+        "en":  "prevent",
+        "id_":  "mencegah"
+    },
+    {
+        "id":  219,
+        "en":  "produce",
+        "id_":  "menghasilkan"
+    },
+    {
+        "id":  220,
+        "en":  "promote",
+        "id_":  "mempromosikan"
+    },
+    {
+        "id":  221,
+        "en":  "protect",
+        "id_":  "melindungi"
+    },
+    {
+        "id":  222,
+        "en":  "provide",
+        "id_":  "menyediakan"
+    },
+    {
+        "id":  223,
+        "en":  "publish",
+        "id_":  "menerbitkan"
+    },
+    {
+        "id":  224,
+        "en":  "pursue",
+        "id_":  "mengejar"
+    },
+    {
+        "id":  225,
+        "en":  "realize",
+        "id_":  "menyadari"
+    },
+    {
+        "id":  226,
+        "en":  "recommend",
+        "id_":  "merekomendasikan"
+    },
+    {
+        "id":  227,
+        "en":  "reflect",
+        "id_":  "merefleksikan"
+    },
+    {
+        "id":  228,
+        "en":  "relate",
+        "id_":  "berhubungan"
+    },
+    {
+        "id":  229,
+        "en":  "require",
+        "id_":  "membutuhkan"
+    },
+    {
+        "id":  230,
+        "en":  "research",
+        "id_":  "penelitian"
+    },
+    {
+        "id":  231,
+        "en":  "respect",
+        "id_":  "menghormati"
+    },
+    {
+        "id":  232,
+        "en":  "respond",
+        "id_":  "merespons"
+    },
+    {
+        "id":  233,
+        "en":  "result",
+        "id_":  "hasil"
+    },
+    {
+        "id":  234,
+        "en":  "reveal",
+        "id_":  "mengungkapkan"
+    },
+    {
+        "id":  235,
+        "en":  "seek",
+        "id_":  "mencari"
+    },
+    {
+        "id":  236,
+        "en":  "select",
+        "id_":  "memilih"
+    },
+    {
+        "id":  237,
+        "en":  "significant",
+        "id_":  "signifikan"
+    },
+    {
+        "id":  238,
+        "en":  "solve",
+        "id_":  "memecahkan"
+    },
+    {
+        "id":  239,
+        "en":  "strategy",
+        "id_":  "strategi"
+    },
+    {
+        "id":  240,
+        "en":  "structure",
+        "id_":  "struktur"
+    },
+    {
+        "id":  241,
+        "en":  "succeed",
+        "id_":  "berhasil"
+    },
+    {
+        "id":  242,
+        "en":  "suggest",
+        "id_":  "menyarankan"
+    },
+    {
+        "id":  243,
+        "en":  "support",
+        "id_":  "mendukung"
+    },
+    {
+        "id":  244,
+        "en":  "survive",
+        "id_":  "bertahan"
+    },
+    {
+        "id":  245,
+        "en":  "tackle",
+        "id_":  "mengatasi"
+    },
+    {
+        "id":  246,
+        "en":  "target",
+        "id_":  "target"
+    },
+    {
+        "id":  247,
+        "en":  "transfer",
+        "id_":  "mentransfer"
+    },
+    {
+        "id":  248,
+        "en":  "transform",
+        "id_":  "mengubah"
+    },
+    {
+        "id":  249,
+        "en":  "understand",
+        "id_":  "memahami"
+    },
+    {
+        "id":  250,
+        "en":  "unique",
+        "id_":  "unik"
+    },
+    {
+        "id":  251,
+        "en":  "utilize",
+        "id_":  "memanfaatkan"
+    },
+    {
+        "id":  252,
+        "en":  "value",
+        "id_":  "nilai"
+    },
+    {
+        "id":  253,
+        "en":  "variety",
+        "id_":  "variasi"
+    },
+    {
+        "id":  254,
+        "en":  "verify",
+        "id_":  "memverifikasi"
+    },
+    {
+        "id":  255,
+        "en":  "afternoon",
+        "id_":  "sore hari"
+    },
+    {
+        "id":  256,
+        "en":  "airport",
+        "id_":  "bandara"
+    },
+    {
+        "id":  257,
+        "en":  "alarm",
+        "id_":  "alarm"
+    },
+    {
+        "id":  258,
+        "en":  "animal",
+        "id_":  "hewan"
+    },
+    {
+        "id":  259,
+        "en":  "answer",
+        "id_":  "jawaban"
+    },
+    {
+        "id":  260,
+        "en":  "apple",
+        "id_":  "apel"
+    },
+    {
+        "id":  261,
+        "en":  "arm",
+        "id_":  "lengan"
+    },
+    {
+        "id":  262,
+        "en":  "art",
+        "id_":  "seni"
+    },
+    {
+        "id":  263,
+        "en":  "back",
+        "id_":  "punggung"
+    },
+    {
+        "id":  264,
+        "en":  "banana",
+        "id_":  "pisang"
+    },
+    {
+        "id":  265,
+        "en":  "bank",
+        "id_":  "bank"
+    },
+    {
+        "id":  266,
+        "en":  "basket",
+        "id_":  "keranjang"
+    },
+    {
+        "id":  267,
+        "en":  "bath",
+        "id_":  "mandi"
+    },
+    {
+        "id":  268,
+        "en":  "beach",
+        "id_":  "pantai"
+    },
+    {
+        "id":  269,
+        "en":  "bed",
+        "id_":  "tempat tidur"
+    },
+    {
+        "id":  270,
+        "en":  "bird",
+        "id_":  "burung"
+    },
+    {
+        "id":  271,
+        "en":  "blood",
+        "id_":  "darah"
+    },
+    {
+        "id":  272,
+        "en":  "body",
+        "id_":  "tubuh"
+    },
+    {
+        "id":  273,
+        "en":  "bone",
+        "id_":  "tulang"
+    },
+    {
+        "id":  274,
+        "en":  "book",
+        "id_":  "buku"
+    },
+    {
+        "id":  275,
+        "en":  "bottle",
+        "id_":  "botol"
+    },
+    {
+        "id":  276,
+        "en":  "box",
+        "id_":  "kotak"
+    },
+    {
+        "id":  277,
+        "en":  "brain",
+        "id_":  "otak"
+    },
+    {
+        "id":  278,
+        "en":  "bridge",
+        "id_":  "jembatan"
+    },
+    {
+        "id":  279,
+        "en":  "brother",
+        "id_":  "saudara laki-laki"
+    },
+    {
+        "id":  280,
+        "en":  "camera",
+        "id_":  "kamera"
+    },
+    {
+        "id":  281,
+        "en":  "car",
+        "id_":  "mobil"
+    },
+    {
+        "id":  282,
+        "en":  "cat",
+        "id_":  "kucing"
+    },
+    {
+        "id":  283,
+        "en":  "chair",
+        "id_":  "kursi"
+    },
+    {
+        "id":  284,
+        "en":  "child",
+        "id_":  "anak"
+    },
+    {
+        "id":  285,
+        "en":  "city",
+        "id_":  "kota"
+    },
+    {
+        "id":  286,
+        "en":  "class",
+        "id_":  "kelas"
+    },
+    {
+        "id":  287,
+        "en":  "clock",
+        "id_":  "jam"
+    },
+    {
+        "id":  288,
+        "en":  "cloud",
+        "id_":  "awan"
+    },
+    {
+        "id":  289,
+        "en":  "coat",
+        "id_":  "mantel"
+    },
+    {
+        "id":  290,
+        "en":  "coffee",
+        "id_":  "kopi"
+    },
+    {
+        "id":  291,
+        "en":  "computer",
+        "id_":  "komputer"
+    },
+    {
+        "id":  292,
+        "en":  "corner",
+        "id_":  "sudut"
+    },
+    {
+        "id":  293,
+        "en":  "country",
+        "id_":  "negara"
+    },
+    {
+        "id":  294,
+        "en":  "cup",
+        "id_":  "cangkir"
+    },
+    {
+        "id":  295,
+        "en":  "dad",
+        "id_":  "ayah"
+    },
+    {
+        "id":  296,
+        "en":  "daughter",
+        "id_":  "putri"
+    },
+    {
+        "id":  297,
+        "en":  "day",
+        "id_":  "hari"
+    },
+    {
+        "id":  298,
+        "en":  "desk",
+        "id_":  "meja kerja"
+    },
+    {
+        "id":  299,
+        "en":  "doctor",
+        "id_":  "dokter"
+    },
+    {
+        "id":  300,
+        "en":  "dog",
+        "id_":  "anjing"
+    },
+    {
+        "id":  301,
+        "en":  "door",
+        "id_":  "pintu"
+    },
+    {
+        "id":  302,
+        "en":  "dream",
+        "id_":  "mimpi"
+    },
+    {
+        "id":  303,
+        "en":  "drink",
+        "id_":  "minuman"
+    },
+    {
+        "id":  304,
+        "en":  "ear",
+        "id_":  "telinga"
+    },
+    {
+        "id":  305,
+        "en":  "earth",
+        "id_":  "bumi"
+    },
+    {
+        "id":  306,
+        "en":  "egg",
+        "id_":  "telur"
+    },
+    {
+        "id":  307,
+        "en":  "evening",
+        "id_":  "malam"
+    },
+    {
+        "id":  308,
+        "en":  "eye",
+        "id_":  "mata"
+    },
+    {
+        "id":  309,
+        "en":  "face",
+        "id_":  "wajah"
+    },
+    {
+        "id":  310,
+        "en":  "family",
+        "id_":  "keluarga"
+    },
+    {
+        "id":  311,
+        "en":  "farm",
+        "id_":  "pertanian"
+    },
+    {
+        "id":  312,
+        "en":  "father",
+        "id_":  "ayah"
+    },
+    {
+        "id":  313,
+        "en":  "finger",
+        "id_":  "jari"
+    },
+    {
+        "id":  314,
+        "en":  "fire",
+        "id_":  "api"
+    },
+    {
+        "id":  315,
+        "en":  "fish",
+        "id_":  "ikan"
+    },
+    {
+        "id":  316,
+        "en":  "floor",
+        "id_":  "lantai"
+    },
+    {
+        "id":  317,
+        "en":  "flower",
+        "id_":  "bunga"
+    },
+    {
+        "id":  318,
+        "en":  "food",
+        "id_":  "makanan"
+    },
+    {
+        "id":  319,
+        "en":  "foot",
+        "id_":  "kaki"
+    },
+    {
+        "id":  320,
+        "en":  "friend",
+        "id_":  "teman"
+    },
+    {
+        "id":  321,
+        "en":  "fruit",
+        "id_":  "buah"
+    },
+    {
+        "id":  322,
+        "en":  "garden",
+        "id_":  "taman"
+    },
+    {
+        "id":  323,
+        "en":  "gate",
+        "id_":  "gerbang"
+    },
+    {
+        "id":  324,
+        "en":  "girl",
+        "id_":  "gadis"
+    },
+    {
+        "id":  325,
+        "en":  "glass",
+        "id_":  "kaca"
+    },
+    {
+        "id":  326,
+        "en":  "government",
+        "id_":  "pemerintah"
+    },
+    {
+        "id":  327,
+        "en":  "grass",
+        "id_":  "rumput"
+    },
+    {
+        "id":  328,
+        "en":  "group",
+        "id_":  "kelompok"
+    },
+    {
+        "id":  329,
+        "en":  "hair",
+        "id_":  "rambut"
+    },
+    {
+        "id":  330,
+        "en":  "hand",
+        "id_":  "tangan"
+    },
+    {
+        "id":  331,
+        "en":  "hat",
+        "id_":  "topi"
+    },
+    {
+        "id":  332,
+        "en":  "head",
+        "id_":  "kepala"
+    },
+    {
+        "id":  333,
+        "en":  "heart",
+        "id_":  "jantung"
+    },
+    {
+        "id":  334,
+        "en":  "home",
+        "id_":  "rumah"
+    },
+    {
+        "id":  335,
+        "en":  "hospital",
+        "id_":  "rumah sakit"
+    },
+    {
+        "id":  336,
+        "en":  "hotel",
+        "id_":  "hotel"
+    },
+    {
+        "id":  337,
+        "en":  "hour",
+        "id_":  "jam"
+    },
+    {
+        "id":  338,
+        "en":  "house",
+        "id_":  "rumah"
+    },
+    {
+        "id":  339,
+        "en":  "ice",
+        "id_":  "es"
+    },
+    {
+        "id":  340,
+        "en":  "idea",
+        "id_":  "ide"
+    },
+    {
+        "id":  341,
+        "en":  "island",
+        "id_":  "pulau"
+    },
+    {
+        "id":  342,
+        "en":  "job",
+        "id_":  "pekerjaan"
+    },
+    {
+        "id":  343,
+        "en":  "key",
+        "id_":  "kunci"
+    },
+    {
+        "id":  344,
+        "en":  "king",
+        "id_":  "raja"
+    },
+    {
+        "id":  345,
+        "en":  "kitchen",
+        "id_":  "dapur"
+    },
+    {
+        "id":  346,
+        "en":  "lake",
+        "id_":  "danau"
+    },
+    {
+        "id":  347,
+        "en":  "lamp",
+        "id_":  "lampu"
+    },
+    {
+        "id":  348,
+        "en":  "land",
+        "id_":  "tanah"
+    },
+    {
+        "id":  349,
+        "en":  "language",
+        "id_":  "bahasa"
+    },
+    {
+        "id":  350,
+        "en":  "leaf",
+        "id_":  "daun"
+    },
+    {
+        "id":  351,
+        "en":  "leg",
+        "id_":  "kaki"
+    },
+    {
+        "id":  352,
+        "en":  "letter",
+        "id_":  "surat"
+    },
+    {
+        "id":  353,
+        "en":  "library",
+        "id_":  "perpustakaan"
+    },
+    {
+        "id":  354,
+        "en":  "light",
+        "id_":  "cahaya"
+    },
+    {
+        "id":  355,
+        "en":  "lion",
+        "id_":  "singa"
+    },
+    {
+        "id":  356,
+        "en":  "lip",
+        "id_":  "bibir"
+    },
+    {
+        "id":  357,
+        "en":  "map",
+        "id_":  "peta"
+    },
+    {
+        "id":  358,
+        "en":  "market",
+        "id_":  "pasar"
+    },
+    {
+        "id":  359,
+        "en":  "meat",
+        "id_":  "daging"
+    },
+    {
+        "id":  360,
+        "en":  "medicine",
+        "id_":  "obat"
+    },
+    {
+        "id":  361,
+        "en":  "milk",
+        "id_":  "susu"
+    },
+    {
+        "id":  362,
+        "en":  "mind",
+        "id_":  "pikiran"
+    },
+    {
+        "id":  363,
+        "en":  "minute",
+        "id_":  "menit"
+    },
+    {
+        "id":  364,
+        "en":  "mirror",
+        "id_":  "cermin"
+    },
+    {
+        "id":  365,
+        "en":  "money",
+        "id_":  "uang"
+    },
+    {
+        "id":  366,
+        "en":  "moon",
+        "id_":  "bulan"
+    },
+    {
+        "id":  367,
+        "en":  "morning",
+        "id_":  "pagi"
+    },
+    {
+        "id":  368,
+        "en":  "mother",
+        "id_":  "ibu"
+    },
+    {
+        "id":  369,
+        "en":  "mountain",
+        "id_":  "gunung"
+    },
+    {
+        "id":  370,
+        "en":  "mouth",
+        "id_":  "mulut"
+    },
+    {
+        "id":  371,
+        "en":  "music",
+        "id_":  "musik"
+    },
+    {
+        "id":  372,
+        "en":  "name",
+        "id_":  "nama"
+    },
+    {
+        "id":  373,
+        "en":  "nature",
+        "id_":  "alam"
+    },
+    {
+        "id":  374,
+        "en":  "neck",
+        "id_":  "leher"
+    },
+    {
+        "id":  375,
+        "en":  "newspaper",
+        "id_":  "surat kabar"
+    },
+    {
+        "id":  376,
+        "en":  "night",
+        "id_":  "malam"
+    },
+    {
+        "id":  377,
+        "en":  "nose",
+        "id_":  "hidung"
+    },
+    {
+        "id":  378,
+        "en":  "number",
+        "id_":  "angka"
+    },
+    {
+        "id":  379,
+        "en":  "office",
+        "id_":  "kantor"
+    },
+    {
+        "id":  380,
+        "en":  "orange",
+        "id_":  "jeruk"
+    },
+    {
+        "id":  381,
+        "en":  "page",
+        "id_":  "halaman"
+    },
+    {
+        "id":  382,
+        "en":  "paper",
+        "id_":  "kertas"
+    },
+    {
+        "id":  383,
+        "en":  "park",
+        "id_":  "taman"
+    },
+    {
+        "id":  384,
+        "en":  "path",
+        "id_":  "jalan"
+    },
+    {
+        "id":  385,
+        "en":  "pen",
+        "id_":  "pena"
+    },
+    {
+        "id":  386,
+        "en":  "phone",
+        "id_":  "telepon"
+    },
+    {
+        "id":  387,
+        "en":  "picture",
+        "id_":  "gambar"
+    },
+    {
+        "id":  388,
+        "en":  "pillow",
+        "id_":  "bantal"
+    },
+    {
+        "id":  389,
+        "en":  "plant",
+        "id_":  "tanaman"
+    },
+    {
+        "id":  390,
+        "en":  "plate",
+        "id_":  "piring"
+    },
+    {
+        "id":  391,
+        "en":  "pocket",
+        "id_":  "saku"
+    },
+    {
+        "id":  392,
+        "en":  "police",
+        "id_":  "polisi"
+    },
+    {
+        "id":  393,
+        "en":  "pond",
+        "id_":  "kolam"
+    },
+    {
+        "id":  394,
+        "en":  "price",
+        "id_":  "harga"
+    },
+    {
+        "id":  395,
+        "en":  "queen",
+        "id_":  "ratu"
+    },
+    {
+        "id":  396,
+        "en":  "rain",
+        "id_":  "hujan"
+    },
+    {
+        "id":  397,
+        "en":  "river",
+        "id_":  "sungai"
+    },
+    {
+        "id":  398,
+        "en":  "road",
+        "id_":  "jalan"
+    },
+    {
+        "id":  399,
+        "en":  "rock",
+        "id_":  "batu"
+    },
+    {
+        "id":  400,
+        "en":  "roof",
+        "id_":  "atap"
+    },
+    {
+        "id":  401,
+        "en":  "room",
+        "id_":  "kamar"
+    },
+    {
+        "id":  402,
+        "en":  "rose",
+        "id_":  "mawar"
+    },
+    {
+        "id":  403,
+        "en":  "school",
+        "id_":  "sekolah"
+    },
+    {
+        "id":  404,
+        "en":  "sea",
+        "id_":  "laut"
+    },
+    {
+        "id":  405,
+        "en":  "shirt",
+        "id_":  "baju"
+    },
+    {
+        "id":  406,
+        "en":  "shoe",
+        "id_":  "sepatu"
+    },
+    {
+        "id":  407,
+        "en":  "shoulder",
+        "id_":  "bahu"
+    },
+    {
+        "id":  408,
+        "en":  "sister",
+        "id_":  "saudara perempuan"
+    },
+    {
+        "id":  409,
+        "en":  "sky",
+        "id_":  "langit"
+    },
+    {
+        "id":  410,
+        "en":  "sleep",
+        "id_":  "tidur"
+    },
+    {
+        "id":  411,
+        "en":  "smile",
+        "id_":  "senyum"
+    },
+    {
+        "id":  412,
+        "en":  "snow",
+        "id_":  "salju"
+    },
+    {
+        "id":  413,
+        "en":  "son",
+        "id_":  "putra"
+    },
+    {
+        "id":  414,
+        "en":  "song",
+        "id_":  "lagu"
+    },
+    {
+        "id":  415,
+        "en":  "soup",
+        "id_":  "sup"
+    },
+    {
+        "id":  416,
+        "en":  "speed",
+        "id_":  "kecepatan"
+    },
+    {
+        "id":  417,
+        "en":  "star",
+        "id_":  "bintang"
+    },
+    {
+        "id":  418,
+        "en":  "station",
+        "id_":  "stasiun"
+    },
+    {
+        "id":  419,
+        "en":  "stomach",
+        "id_":  "perut"
+    },
+    {
+        "id":  420,
+        "en":  "story",
+        "id_":  "cerita"
+    },
+    {
+        "id":  421,
+        "en":  "street",
+        "id_":  "jalan"
+    },
+    {
+        "id":  422,
+        "en":  "student",
+        "id_":  "siswa"
+    },
+    {
+        "id":  423,
+        "en":  "sugar",
+        "id_":  "gula"
+    },
+    {
+        "id":  424,
+        "en":  "sun",
+        "id_":  "matahari"
+    },
+    {
+        "id":  425,
+        "en":  "table",
+        "id_":  "meja"
+    },
+    {
+        "id":  426,
+        "en":  "teacher",
+        "id_":  "guru"
+    },
+    {
+        "id":  427,
+        "en":  "team",
+        "id_":  "tim"
+    },
+    {
+        "id":  428,
+        "en":  "tooth",
+        "id_":  "gigi"
+    },
+    {
+        "id":  429,
+        "en":  "town",
+        "id_":  "kota"
+    },
+    {
+        "id":  430,
+        "en":  "train",
+        "id_":  "kereta"
+    },
+    {
+        "id":  431,
+        "en":  "tree",
+        "id_":  "pohon"
+    },
+    {
+        "id":  432,
+        "en":  "umbrella",
+        "id_":  "payung"
+    },
+    {
+        "id":  433,
+        "en":  "village",
+        "id_":  "desa"
+    },
+    {
+        "id":  434,
+        "en":  "voice",
+        "id_":  "suara"
+    },
+    {
+        "id":  435,
+        "en":  "wall",
+        "id_":  "dinding"
+    },
+    {
+        "id":  436,
+        "en":  "water",
+        "id_":  "air"
+    },
+    {
+        "id":  437,
+        "en":  "window",
+        "id_":  "jendela"
+    },
+    {
+        "id":  438,
+        "en":  "wind",
+        "id_":  "angin"
+    },
+    {
+        "id":  439,
+        "en":  "woman",
+        "id_":  "wanita"
+    },
+    {
+        "id":  440,
+        "en":  "word",
+        "id_":  "kata"
+    },
+    {
+        "id":  441,
+        "en":  "work",
+        "id_":  "pekerjaan"
+    },
+    {
+        "id":  442,
+        "en":  "world",
+        "id_":  "dunia"
+    },
+    {
+        "id":  443,
+        "en":  "year",
+        "id_":  "tahun"
+    },
+    {
+        "id":  444,
+        "en":  "zebra",
+        "id_":  "zebra"
+    },
+    {
+        "id":  445,
+        "en":  "beautiful",
+        "id_":  "indah"
+    },
+    {
+        "id":  446,
+        "en":  "big",
+        "id_":  "besar"
+    },
+    {
+        "id":  447,
+        "en":  "bright",
+        "id_":  "cerah"
+    },
+    {
+        "id":  448,
+        "en":  "broken",
+        "id_":  "rusak"
+    },
+    {
+        "id":  449,
+        "en":  "clean",
+        "id_":  "bersih"
+    },
+    {
+        "id":  450,
+        "en":  "cold",
+        "id_":  "dingin"
+    },
+    {
+        "id":  451,
+        "en":  "comfortable",
+        "id_":  "nyaman"
+    },
+    {
+        "id":  452,
+        "en":  "cool",
+        "id_":  "sejuk"
+    },
+    {
+        "id":  453,
+        "en":  "dark",
+        "id_":  "gelap"
+    },
+    {
+        "id":  454,
+        "en":  "deep",
+        "id_":  "dalam"
+    },
+    {
+        "id":  455,
+        "en":  "delicious",
+        "id_":  "lezat"
+    },
+    {
+        "id":  456,
+        "en":  "dirty",
+        "id_":  "kotor"
+    },
+    {
+        "id":  457,
+        "en":  "easy",
+        "id_":  "mudah"
+    },
+    {
+        "id":  458,
+        "en":  "empty",
+        "id_":  "kosong"
+    },
+    {
+        "id":  459,
+        "en":  "expensive",
+        "id_":  "mahal"
+    },
+    {
+        "id":  460,
+        "en":  "famous",
+        "id_":  "terkenal"
+    },
+    {
+        "id":  461,
+        "en":  "fast",
+        "id_":  "cepat"
+    },
+    {
+        "id":  462,
+        "en":  "fat",
+        "id_":  "gemuk"
+    },
+    {
+        "id":  463,
+        "en":  "free",
+        "id_":  "gratis"
+    },
+    {
+        "id":  464,
+        "en":  "fresh",
+        "id_":  "segar"
+    },
+    {
+        "id":  465,
+        "en":  "full",
+        "id_":  "penuh"
+    },
+    {
+        "id":  466,
+        "en":  "good",
+        "id_":  "baik"
+    },
+    {
+        "id":  467,
+        "en":  "great",
+        "id_":  "hebat"
+    },
+    {
+        "id":  468,
+        "en":  "happy",
+        "id_":  "bahagia"
+    },
+    {
+        "id":  469,
+        "en":  "hard",
+        "id_":  "keras"
+    },
+    {
+        "id":  470,
+        "en":  "heavy",
+        "id_":  "berat"
+    },
+    {
+        "id":  471,
+        "en":  "high",
+        "id_":  "tinggi"
+    },
+    {
+        "id":  472,
+        "en":  "hot",
+        "id_":  "panas"
+    },
+    {
+        "id":  473,
+        "en":  "huge",
+        "id_":  "sangat besar"
+    },
+    {
+        "id":  474,
+        "en":  "important",
+        "id_":  "penting"
+    },
+    {
+        "id":  475,
+        "en":  "interesting",
+        "id_":  "menarik"
+    },
+    {
+        "id":  476,
+        "en":  "kind",
+        "id_":  "baik hati"
+    },
+    {
+        "id":  477,
+        "en":  "large",
+        "id_":  "besar"
+    },
+    {
+        "id":  478,
+        "en":  "lazy",
+        "id_":  "malas"
+    },
+    {
+        "id":  479,
+        "en":  "little",
+        "id_":  "kecil"
+    },
+    {
+        "id":  480,
+        "en":  "long",
+        "id_":  "panjang"
+    },
+    {
+        "id":  481,
+        "en":  "loud",
+        "id_":  "keras"
+    },
+    {
+        "id":  482,
+        "en":  "low",
+        "id_":  "rendah"
+    },
+    {
+        "id":  483,
+        "en":  "modern",
+        "id_":  "modern"
+    },
+    {
+        "id":  484,
+        "en":  "narrow",
+        "id_":  "sempit"
+    },
+    {
+        "id":  485,
+        "en":  "new",
+        "id_":  "baru"
+    },
+    {
+        "id":  486,
+        "en":  "nice",
+        "id_":  "menyenangkan"
+    },
+    {
+        "id":  487,
+        "en":  "noisy",
+        "id_":  "berisik"
+    },
+    {
+        "id":  488,
+        "en":  "normal",
+        "id_":  "normal"
+    },
+    {
+        "id":  489,
+        "en":  "old",
+        "id_":  "tua"
+    },
+    {
+        "id":  490,
+        "en":  "open",
+        "id_":  "terbuka"
+    },
+    {
+        "id":  491,
+        "en":  "perfect",
+        "id_":  "sempurna"
+    },
+    {
+        "id":  492,
+        "en":  "popular",
+        "id_":  "populer"
+    },
+    {
+        "id":  493,
+        "en":  "possible",
+        "id_":  "mungkin"
+    },
+    {
+        "id":  494,
+        "en":  "poor",
+        "id_":  "miskin"
+    },
+    {
+        "id":  495,
+        "en":  "powerful",
+        "id_":  "kuat"
+    },
+    {
+        "id":  496,
+        "en":  "proud",
+        "id_":  "bangga"
+    },
+    {
+        "id":  497,
+        "en":  "quiet",
+        "id_":  "tenang"
+    },
+    {
+        "id":  498,
+        "en":  "real",
+        "id_":  "nyata"
+    },
+    {
+        "id":  499,
+        "en":  "rich",
+        "id_":  "kaya"
+    },
+    {
+        "id":  500,
+        "en":  "right",
+        "id_":  "benar"
+    },
+    {
+        "id":  501,
+        "en":  "rough",
+        "id_":  "kasar"
+    },
+    {
+        "id":  502,
+        "en":  "safe",
+        "id_":  "aman"
+    },
+    {
+        "id":  503,
+        "en":  "scary",
+        "id_":  "menakutkan"
+    },
+    {
+        "id":  504,
+        "en":  "serious",
+        "id_":  "serius"
+    },
+    {
+        "id":  505,
+        "en":  "sharp",
+        "id_":  "tajam"
+    },
+    {
+        "id":  506,
+        "en":  "short",
+        "id_":  "pendek"
+    },
+    {
+        "id":  507,
+        "en":  "similar",
+        "id_":  "serupa"
+    },
+    {
+        "id":  508,
+        "en":  "simple",
+        "id_":  "sederhana"
+    },
+    {
+        "id":  509,
+        "en":  "slow",
+        "id_":  "lambat"
+    },
+    {
+        "id":  510,
+        "en":  "small",
+        "id_":  "kecil"
+    },
+    {
+        "id":  511,
+        "en":  "smart",
+        "id_":  "cerdas"
+    },
+    {
+        "id":  512,
+        "en":  "soft",
+        "id_":  "lembut"
+    },
+    {
+        "id":  513,
+        "en":  "special",
+        "id_":  "istimewa"
+    },
+    {
+        "id":  514,
+        "en":  "strange",
+        "id_":  "aneh"
+    },
+    {
+        "id":  515,
+        "en":  "strong",
+        "id_":  "kuat"
+    },
+    {
+        "id":  516,
+        "en":  "sweet",
+        "id_":  "manis"
+    },
+    {
+        "id":  517,
+        "en":  "tall",
+        "id_":  "tinggi"
+    },
+    {
+        "id":  518,
+        "en":  "thick",
+        "id_":  "tebal"
+    },
+    {
+        "id":  519,
+        "en":  "thin",
+        "id_":  "tipis"
+    },
+    {
+        "id":  520,
+        "en":  "tired",
+        "id_":  "lelah"
+    },
+    {
+        "id":  521,
+        "en":  "true",
+        "id_":  "benar"
+    },
+    {
+        "id":  522,
+        "en":  "ugly",
+        "id_":  "jelek"
+    },
+    {
+        "id":  523,
+        "en":  "warm",
+        "id_":  "hangat"
+    },
+    {
+        "id":  524,
+        "en":  "weak",
+        "id_":  "lemah"
+    },
+    {
+        "id":  525,
+        "en":  "wide",
+        "id_":  "lebar"
+    },
+    {
+        "id":  526,
+        "en":  "wild",
+        "id_":  "liar"
+    },
+    {
+        "id":  527,
+        "en":  "wrong",
+        "id_":  "salah"
+    },
+    {
+        "id":  528,
+        "en":  "young",
+        "id_":  "muda"
+    },
+    {
+        "id":  529,
+        "en":  "careful",
+        "id_":  "hati-hati"
+    },
+    {
+        "id":  530,
+        "en":  "cheerful",
+        "id_":  "ceria"
+    },
+    {
+        "id":  531,
+        "en":  "excited",
+        "id_":  "bersemangat"
+    },
+    {
+        "id":  532,
+        "en":  "friendly",
+        "id_":  "ramah"
+    },
+    {
+        "id":  533,
+        "en":  "generous",
+        "id_":  "dermawan"
+    },
+    {
+        "id":  534,
+        "en":  "gentle",
+        "id_":  "lembut"
+    },
+    {
+        "id":  535,
+        "en":  "healthy",
+        "id_":  "sehat"
+    },
+    {
+        "id":  536,
+        "en":  "hungry",
+        "id_":  "lapar"
+    },
+    {
+        "id":  537,
+        "en":  "jealous",
+        "id_":  "cemburu"
+    },
+    {
+        "id":  538,
+        "en":  "lonely",
+        "id_":  "kesepian"
+    },
+    {
+        "id":  539,
+        "en":  "lucky",
+        "id_":  "beruntung"
+    },
+    {
+        "id":  540,
+        "en":  "nervous",
+        "id_":  "gugup"
+    },
+    {
+        "id":  541,
+        "en":  "patient",
+        "id_":  "sabar"
+    },
+    {
+        "id":  542,
+        "en":  "polite",
+        "id_":  "sopan"
+    },
+    {
+        "id":  543,
+        "en":  "rude",
+        "id_":  "kasar"
+    },
+    {
+        "id":  544,
+        "en":  "sad",
+        "id_":  "sedih"
+    },
+    {
+        "id":  545,
+        "en":  "sick",
+        "id_":  "sakit"
+    },
+    {
+        "id":  546,
+        "en":  "sleepy",
+        "id_":  "mengantuk"
+    },
+    {
+        "id":  547,
+        "en":  "surprised",
+        "id_":  "terkejut"
+    },
+    {
+        "id":  548,
+        "en":  "thirsty",
+        "id_":  "haus"
+    },
+    {
+        "id":  549,
+        "en":  "worried",
+        "id_":  "khawatir"
+    },
+    {
+        "id":  550,
+        "en":  "ask",
+        "id_":  "bertanya"
+    },
+    {
+        "id":  551,
+        "en":  "begin",
+        "id_":  "memulai"
+    },
+    {
+        "id":  552,
+        "en":  "believe",
+        "id_":  "percaya"
+    },
+    {
+        "id":  553,
+        "en":  "break",
+        "id_":  "mematahkan"
+    },
+    {
+        "id":  554,
+        "en":  "bring",
+        "id_":  "membawa"
+    },
+    {
+        "id":  555,
+        "en":  "buy",
+        "id_":  "membeli"
+    },
+    {
+        "id":  556,
+        "en":  "call",
+        "id_":  "memanggil"
+    },
+    {
+        "id":  557,
+        "en":  "carry",
+        "id_":  "membawa"
+    },
+    {
+        "id":  558,
+        "en":  "change",
+        "id_":  "mengubah"
+    },
+    {
+        "id":  559,
+        "en":  "climb",
+        "id_":  "mendaki"
+    },
+    {
+        "id":  560,
+        "en":  "close",
+        "id_":  "menutup"
+    },
+    {
+        "id":  561,
+        "en":  "come",
+        "id_":  "datang"
+    },
+    {
+        "id":  562,
+        "en":  "cook",
+        "id_":  "memasak"
+    },
+    {
+        "id":  563,
+        "en":  "cry",
+        "id_":  "menangis"
+    },
+    {
+        "id":  564,
+        "en":  "cut",
+        "id_":  "memotong"
+    },
+    {
+        "id":  565,
+        "en":  "dance",
+        "id_":  "menari"
+    },
+    {
+        "id":  566,
+        "en":  "draw",
+        "id_":  "menggambar"
+    },
+    {
+        "id":  567,
+        "en":  "eat",
+        "id_":  "makan"
+    },
+    {
+        "id":  568,
+        "en":  "fall",
+        "id_":  "jatuh"
+    },
+    {
+        "id":  569,
+        "en":  "feel",
+        "id_":  "merasakan"
+    },
+    {
+        "id":  570,
+        "en":  "fight",
+        "id_":  "bertarung"
+    },
+    {
+        "id":  571,
+        "en":  "find",
+        "id_":  "menemukan"
+    },
+    {
+        "id":  572,
+        "en":  "fix",
+        "id_":  "memperbaiki"
+    },
+    {
+        "id":  573,
+        "en":  "follow",
+        "id_":  "mengikuti"
+    },
+    {
+        "id":  574,
+        "en":  "forget",
+        "id_":  "melupakan"
+    },
+    {
+        "id":  575,
+        "en":  "give",
+        "id_":  "memberi"
+    },
+    {
+        "id":  576,
+        "en":  "go",
+        "id_":  "pergi"
+    },
+    {
+        "id":  577,
+        "en":  "hear",
+        "id_":  "mendengar"
+    },
+    {
+        "id":  578,
+        "en":  "help",
+        "id_":  "membantu"
+    },
+    {
+        "id":  579,
+        "en":  "hold",
+        "id_":  "memegang"
+    },
+    {
+        "id":  580,
+        "en":  "hope",
+        "id_":  "berharap"
+    },
+    {
+        "id":  581,
+        "en":  "hurry",
+        "id_":  "terburu-buru"
+    },
+    {
+        "id":  582,
+        "en":  "imagine",
+        "id_":  "membayangkan"
+    },
+    {
+        "id":  583,
+        "en":  "jump",
+        "id_":  "melompat"
+    },
+    {
+        "id":  584,
+        "en":  "keep",
+        "id_":  "menjaga"
+    },
+    {
+        "id":  585,
+        "en":  "kiss",
+        "id_":  "mencium"
+    },
+    {
+        "id":  586,
+        "en":  "know",
+        "id_":  "mengetahui"
+    },
+    {
+        "id":  587,
+        "en":  "learn",
+        "id_":  "belajar"
+    },
+    {
+        "id":  588,
+        "en":  "leave",
+        "id_":  "meninggalkan"
+    },
+    {
+        "id":  589,
+        "en":  "listen",
+        "id_":  "mendengarkan"
+    },
+    {
+        "id":  590,
+        "en":  "live",
+        "id_":  "hidup"
+    },
+    {
+        "id":  591,
+        "en":  "look",
+        "id_":  "melihat"
+    },
+    {
+        "id":  592,
+        "en":  "love",
+        "id_":  "mencintai"
+    },
+    {
+        "id":  593,
+        "en":  "make",
+        "id_":  "membuat"
+    },
+    {
+        "id":  594,
+        "en":  "meet",
+        "id_":  "bertemu"
+    },
+    {
+        "id":  595,
+        "en":  "miss",
+        "id_":  "merindukan"
+    },
+    {
+        "id":  596,
+        "en":  "move",
+        "id_":  "bergerak"
+    },
+    {
+        "id":  597,
+        "en":  "pay",
+        "id_":  "membayar"
+    },
+    {
+        "id":  598,
+        "en":  "pick",
+        "id_":  "memilih"
+    },
+    {
+        "id":  599,
+        "en":  "play",
+        "id_":  "bermain"
+    },
+    {
+        "id":  600,
+        "en":  "push",
+        "id_":  "mendorong"
+    },
+    {
+        "id":  601,
+        "en":  "put",
+        "id_":  "meletakkan"
+    },
+    {
+        "id":  602,
+        "en":  "read",
+        "id_":  "membaca"
+    },
+    {
+        "id":  603,
+        "en":  "run",
+        "id_":  "berlari"
+    },
+    {
+        "id":  604,
+        "en":  "say",
+        "id_":  "mengatakan"
+    },
+    {
+        "id":  605,
+        "en":  "see",
+        "id_":  "melihat"
+    },
+    {
+        "id":  606,
+        "en":  "send",
+        "id_":  "mengirim"
+    },
+    {
+        "id":  607,
+        "en":  "show",
+        "id_":  "menunjukkan"
+    },
+    {
+        "id":  608,
+        "en":  "sing",
+        "id_":  "bernyanyi"
+    },
+    {
+        "id":  609,
+        "en":  "sit",
+        "id_":  "duduk"
+    },
+    {
+        "id":  610,
+        "en":  "speak",
+        "id_":  "berbicara"
+    },
+    {
+        "id":  611,
+        "en":  "stand",
+        "id_":  "berdiri"
+    },
+    {
+        "id":  612,
+        "en":  "start",
+        "id_":  "memulai"
+    },
+    {
+        "id":  613,
+        "en":  "stop",
+        "id_":  "berhenti"
+    },
+    {
+        "id":  614,
+        "en":  "study",
+        "id_":  "belajar"
+    },
+    {
+        "id":  615,
+        "en":  "swim",
+        "id_":  "berenang"
+    },
+    {
+        "id":  616,
+        "en":  "take",
+        "id_":  "mengambil"
+    },
+    {
+        "id":  617,
+        "en":  "talk",
+        "id_":  "berbicara"
+    },
+    {
+        "id":  618,
+        "en":  "teach",
+        "id_":  "mengajar"
+    },
+    {
+        "id":  619,
+        "en":  "tell",
+        "id_":  "memberitahu"
+    },
+    {
+        "id":  620,
+        "en":  "think",
+        "id_":  "berpikir"
+    },
+    {
+        "id":  621,
+        "en":  "throw",
+        "id_":  "melempar"
+    },
+    {
+        "id":  622,
+        "en":  "travel",
+        "id_":  "bepergian"
+    },
+    {
+        "id":  623,
+        "en":  "try",
+        "id_":  "mencoba"
+    },
+    {
+        "id":  624,
+        "en":  "turn",
+        "id_":  "berputar"
+    },
+    {
+        "id":  625,
+        "en":  "use",
+        "id_":  "menggunakan"
+    },
+    {
+        "id":  626,
+        "en":  "visit",
+        "id_":  "mengunjungi"
+    },
+    {
+        "id":  627,
+        "en":  "wait",
+        "id_":  "menunggu"
+    },
+    {
+        "id":  628,
+        "en":  "wake",
+        "id_":  "bangun"
+    },
+    {
+        "id":  629,
+        "en":  "walk",
+        "id_":  "berjalan"
+    },
+    {
+        "id":  630,
+        "en":  "want",
+        "id_":  "menginginkan"
+    },
+    {
+        "id":  631,
+        "en":  "wash",
+        "id_":  "mencuci"
+    },
+    {
+        "id":  632,
+        "en":  "watch",
+        "id_":  "menonton"
+    },
+    {
+        "id":  633,
+        "en":  "win",
+        "id_":  "menang"
+    },
+    {
+        "id":  634,
+        "en":  "wish",
+        "id_":  "berharap"
+    },
+    {
+        "id":  635,
+        "en":  "write",
+        "id_":  "menulis"
+    },
+    {
+        "id":  636,
+        "en":  "always",
+        "id_":  "selalu"
+    },
+    {
+        "id":  637,
+        "en":  "century",
+        "id_":  "abad"
+    },
+    {
+        "id":  638,
+        "en":  "daily",
+        "id_":  "harian"
+    },
+    {
+        "id":  639,
+        "en":  "decade",
+        "id_":  "dekade"
+    },
+    {
+        "id":  640,
+        "en":  "early",
+        "id_":  "awal"
+    },
+    {
+        "id":  641,
+        "en":  "future",
+        "id_":  "masa depan"
+    },
+    {
+        "id":  642,
+        "en":  "lately",
+        "id_":  "belakangan ini"
+    },
+    {
+        "id":  643,
+        "en":  "moment",
+        "id_":  "momen"
+    },
+    {
+        "id":  644,
+        "en":  "monthly",
+        "id_":  "bulanan"
+    },
+    {
+        "id":  645,
+        "en":  "never",
+        "id_":  "tidak pernah"
+    },
+    {
+        "id":  646,
+        "en":  "now",
+        "id_":  "sekarang"
+    },
+    {
+        "id":  647,
+        "en":  "often",
+        "id_":  "sering"
+    },
+    {
+        "id":  648,
+        "en":  "past",
+        "id_":  "masa lalu"
+    },
+    {
+        "id":  649,
+        "en":  "present",
+        "id_":  "sekarang"
+    },
+    {
+        "id":  650,
+        "en":  "recently",
+        "id_":  "baru-baru ini"
+    },
+    {
+        "id":  651,
+        "en":  "schedule",
+        "id_":  "jadwal"
+    },
+    {
+        "id":  652,
+        "en":  "second",
+        "id_":  "detik"
+    },
+    {
+        "id":  653,
+        "en":  "seldom",
+        "id_":  "jarang"
+    },
+    {
+        "id":  654,
+        "en":  "sometimes",
+        "id_":  "kadang-kadang"
+    },
+    {
+        "id":  655,
+        "en":  "soon",
+        "id_":  "segera"
+    },
+    {
+        "id":  656,
+        "en":  "still",
+        "id_":  "masih"
+    },
+    {
+        "id":  657,
+        "en":  "sudden",
+        "id_":  "tiba-tiba"
+    },
+    {
+        "id":  658,
+        "en":  "temporary",
+        "id_":  "sementara"
+    },
+    {
+        "id":  659,
+        "en":  "then",
+        "id_":  "lalu"
+    },
+    {
+        "id":  660,
+        "en":  "today",
+        "id_":  "hari ini"
+    },
+    {
+        "id":  661,
+        "en":  "tomorrow",
+        "id_":  "besok"
+    },
+    {
+        "id":  662,
+        "en":  "tonight",
+        "id_":  "malam ini"
+    },
+    {
+        "id":  663,
+        "en":  "usually",
+        "id_":  "biasanya"
+    },
+    {
+        "id":  664,
+        "en":  "week",
+        "id_":  "minggu"
+    },
+    {
+        "id":  665,
+        "en":  "weekend",
+        "id_":  "akhir pekan"
+    },
+    {
+        "id":  666,
+        "en":  "weekly",
+        "id_":  "mingguan"
+    },
+    {
+        "id":  667,
+        "en":  "yesterday",
+        "id_":  "kemarin"
+    },
+    {
+        "id":  668,
+        "en":  "annual",
+        "id_":  "tahunan"
+    },
+    {
+        "id":  669,
+        "en":  "immediate",
+        "id_":  "segera"
+    },
+    {
+        "id":  670,
+        "en":  "instant",
+        "id_":  "instan"
+    },
+    {
+        "id":  671,
+        "en":  "noon",
+        "id_":  "tengah hari"
+    },
+    {
+        "id":  672,
+        "en":  "overnight",
+        "id_":  "semalam"
+    },
+    {
+        "id":  673,
+        "en":  "period",
+        "id_":  "periode"
+    },
+    {
+        "id":  674,
+        "en":  "quarter",
+        "id_":  "kuartal"
+    },
+    {
+        "id":  675,
+        "en":  "semester",
+        "id_":  "semester"
+    },
+    {
+        "id":  676,
+        "en":  "timeline",
+        "id_":  "garis waktu"
+    },
+    {
+        "id":  677,
+        "en":  "urgent",
+        "id_":  "mendesak"
+    },
+    {
+        "id":  678,
+        "en":  "account",
+        "id_":  "akun"
+    },
+    {
+        "id":  679,
+        "en":  "application",
+        "id_":  "aplikasi"
+    },
+    {
+        "id":  680,
+        "en":  "browser",
+        "id_":  "peramban"
+    },
+    {
+        "id":  681,
+        "en":  "business",
+        "id_":  "bisnis"
+    },
+    {
+        "id":  682,
+        "en":  "client",
+        "id_":  "klien"
+    },
+    {
+        "id":  683,
+        "en":  "code",
+        "id_":  "kode"
+    },
+    {
+        "id":  684,
+        "en":  "company",
+        "id_":  "perusahaan"
+    },
+    {
+        "id":  685,
+        "en":  "contract",
+        "id_":  "kontrak"
+    },
+    {
+        "id":  686,
+        "en":  "customer",
+        "id_":  "pelanggan"
+    },
+    {
+        "id":  687,
+        "en":  "data",
+        "id_":  "data"
+    },
+    {
+        "id":  688,
+        "en":  "database",
+        "id_":  "basis data"
+    },
+    {
+        "id":  689,
+        "en":  "design",
+        "id_":  "desain"
+    },
+    {
+        "id":  690,
+        "en":  "digital",
+        "id_":  "digital"
+    },
+    {
+        "id":  691,
+        "en":  "download",
+        "id_":  "unduhan"
+    },
+    {
+        "id":  692,
+        "en":  "email",
+        "id_":  "surel"
+    },
+    {
+        "id":  693,
+        "en":  "employee",
+        "id_":  "karyawan"
+    },
+    {
+        "id":  694,
+        "en":  "engineer",
+        "id_":  "insinyur"
+    },
+    {
+        "id":  695,
+        "en":  "error",
+        "id_":  "kesalahan"
+    },
+    {
+        "id":  696,
+        "en":  "feedback",
+        "id_":  "umpan balik"
+    },
+    {
+        "id":  697,
+        "en":  "file",
+        "id_":  "berkas"
+    },
+    {
+        "id":  698,
+        "en":  "finance",
+        "id_":  "keuangan"
+    },
+    {
+        "id":  699,
+        "en":  "global",
+        "id_":  "global"
+    },
+    {
+        "id":  700,
+        "en":  "hardware",
+        "id_":  "perangkat keras"
+    },
+    {
+        "id":  701,
+        "en":  "industry",
+        "id_":  "industri"
+    },
+    {
+        "id":  702,
+        "en":  "information",
+        "id_":  "informasi"
+    },
+    {
+        "id":  703,
+        "en":  "internet",
+        "id_":  "internet"
+    },
+    {
+        "id":  704,
+        "en":  "investment",
+        "id_":  "investasi"
+    },
+    {
+        "id":  705,
+        "en":  "laptop",
+        "id_":  "laptop"
+    },
+    {
+        "id":  706,
+        "en":  "management",
+        "id_":  "manajemen"
+    },
+    {
+        "id":  707,
+        "en":  "manager",
+        "id_":  "manajer"
+    },
+    {
+        "id":  708,
+        "en":  "meeting",
+        "id_":  "rapat"
+    },
+    {
+        "id":  709,
+        "en":  "network",
+        "id_":  "jaringan"
+    },
+    {
+        "id":  710,
+        "en":  "online",
+        "id_":  "daring"
+    },
+    {
+        "id":  711,
+        "en":  "password",
+        "id_":  "kata sandi"
+    },
+    {
+        "id":  712,
+        "en":  "platform",
+        "id_":  "platform"
+    },
+    {
+        "id":  713,
+        "en":  "presentation",
+        "id_":  "presentasi"
+    },
+    {
+        "id":  714,
+        "en":  "printer",
+        "id_":  "printer"
+    },
+    {
+        "id":  715,
+        "en":  "product",
+        "id_":  "produk"
+    },
+    {
+        "id":  716,
+        "en":  "profit",
+        "id_":  "keuntungan"
+    },
+    {
+        "id":  717,
+        "en":  "program",
+        "id_":  "program"
+    },
+    {
+        "id":  718,
+        "en":  "project",
+        "id_":  "proyek"
+    },
+    {
+        "id":  719,
+        "en":  "report",
+        "id_":  "laporan"
+    },
+    {
+        "id":  720,
+        "en":  "salary",
+        "id_":  "gaji"
+    },
+    {
+        "id":  721,
+        "en":  "service",
+        "id_":  "layanan"
+    },
+    {
+        "id":  722,
+        "en":  "software",
+        "id_":  "perangkat lunak"
+    },
+    {
+        "id":  723,
+        "en":  "solution",
+        "id_":  "solusi"
+    },
+    {
+        "id":  724,
+        "en":  "system",
+        "id_":  "sistem"
+    },
+    {
+        "id":  725,
+        "en":  "technology",
+        "id_":  "teknologi"
+    },
+    {
+        "id":  726,
+        "en":  "upload",
+        "id_":  "unggahan"
+    },
+    {
+        "id":  727,
+        "en":  "username",
+        "id_":  "nama pengguna"
+    },
+    {
+        "id":  728,
+        "en":  "website",
+        "id_":  "situs web"
+    },
+    {
+        "id":  729,
+        "en":  "wireless",
+        "id_":  "nirkabel"
+    },
+    {
+        "id":  730,
+        "en":  "deadline",
+        "id_":  "tenggat waktu"
+    },
+    {
+        "id":  731,
+        "en":  "efficiency",
+        "id_":  "efisiensi"
+    },
+    {
+        "id":  732,
+        "en":  "leadership",
+        "id_":  "kepemimpinan"
+    },
+    {
+        "id":  733,
+        "en":  "marketing",
+        "id_":  "pemasaran"
+    },
+    {
+        "id":  734,
+        "en":  "revenue",
+        "id_":  "pendapatan"
+    },
+    {
+        "id":  735,
+        "en":  "shareholder",
+        "id_":  "pemegang saham"
+    },
+    {
+        "id":  736,
+        "en":  "startup",
+        "id_":  "perusahaan rintisan"
+    },
+    {
+        "id":  737,
+        "en":  "stock",
+        "id_":  "saham"
+    },
+    {
+        "id":  738,
+        "en":  "supply",
+        "id_":  "pasokan"
+    },
+    {
+        "id":  739,
+        "en":  "allergy",
+        "id_":  "alergi"
+    },
+    {
+        "id":  740,
+        "en":  "bandage",
+        "id_":  "perban"
+    },
+    {
+        "id":  741,
+        "en":  "breath",
+        "id_":  "napas"
+    },
+    {
+        "id":  742,
+        "en":  "cancer",
+        "id_":  "kanker"
+    },
+    {
+        "id":  743,
+        "en":  "checkup",
+        "id_":  "pemeriksaan"
+    },
+    {
+        "id":  744,
+        "en":  "clinic",
+        "id_":  "klinik"
+    },
+    {
+        "id":  745,
+        "en":  "cough",
+        "id_":  "batuk"
+    },
+    {
+        "id":  746,
+        "en":  "cure",
+        "id_":  "obat"
+    },
+    {
+        "id":  747,
+        "en":  "diabetes",
+        "id_":  "diabetes"
+    },
+    {
+        "id":  748,
+        "en":  "diet",
+        "id_":  "diet"
+    },
+    {
+        "id":  749,
+        "en":  "disease",
+        "id_":  "penyakit"
+    },
+    {
+        "id":  750,
+        "en":  "dose",
+        "id_":  "dosis"
+    },
+    {
+        "id":  751,
+        "en":  "emergency",
+        "id_":  "darurat"
+    },
+    {
+        "id":  752,
+        "en":  "exercise",
+        "id_":  "olahraga"
+    },
+    {
+        "id":  753,
+        "en":  "fever",
+        "id_":  "demam"
+    },
+    {
+        "id":  754,
+        "en":  "headache",
+        "id_":  "sakit kepala"
+    },
+    {
+        "id":  755,
+        "en":  "health",
+        "id_":  "kesehatan"
+    },
+    {
+        "id":  756,
+        "en":  "immune",
+        "id_":  "kebal"
+    },
+    {
+        "id":  757,
+        "en":  "infection",
+        "id_":  "infeksi"
+    },
+    {
+        "id":  758,
+        "en":  "injury",
+        "id_":  "cedera"
+    },
+    {
+        "id":  759,
+        "en":  "mental",
+        "id_":  "mental"
+    },
+    {
+        "id":  760,
+        "en":  "muscle",
+        "id_":  "otot"
+    },
+    {
+        "id":  761,
+        "en":  "nurse",
+        "id_":  "perawat"
+    },
+    {
+        "id":  762,
+        "en":  "nutrition",
+        "id_":  "nutrisi"
+    },
+    {
+        "id":  763,
+        "en":  "operation",
+        "id_":  "operasi"
+    },
+    {
+        "id":  764,
+        "en":  "pain",
+        "id_":  "nyeri"
+    },
+    {
+        "id":  765,
+        "en":  "pharmacy",
+        "id_":  "apotek"
+    },
+    {
+        "id":  766,
+        "en":  "pill",
+        "id_":  "pil"
+    },
+    {
+        "id":  767,
+        "en":  "prescription",
+        "id_":  "resep"
+    },
+    {
+        "id":  768,
+        "en":  "prevention",
+        "id_":  "pencegahan"
+    },
+    {
+        "id":  769,
+        "en":  "pulse",
+        "id_":  "denyut nadi"
+    },
+    {
+        "id":  770,
+        "en":  "recovery",
+        "id_":  "pemulihan"
+    },
+    {
+        "id":  771,
+        "en":  "surgery",
+        "id_":  "bedah"
+    },
+    {
+        "id":  772,
+        "en":  "symptom",
+        "id_":  "gejala"
+    },
+    {
+        "id":  773,
+        "en":  "therapy",
+        "id_":  "terapi"
+    },
+    {
+        "id":  774,
+        "en":  "treatment",
+        "id_":  "perawatan"
+    },
+    {
+        "id":  775,
+        "en":  "vaccine",
+        "id_":  "vaksin"
+    },
+    {
+        "id":  776,
+        "en":  "virus",
+        "id_":  "virus"
+    },
+    {
+        "id":  777,
+        "en":  "weight",
+        "id_":  "berat badan"
+    },
+    {
+        "id":  778,
+        "en":  "wound",
+        "id_":  "luka"
+    },
+    {
+        "id":  779,
+        "en":  "yoga",
+        "id_":  "yoga"
+    },
+    {
+        "id":  780,
+        "en":  "air",
+        "id_":  "udara"
+    },
+    {
+        "id":  781,
+        "en":  "cave",
+        "id_":  "gua"
+    },
+    {
+        "id":  782,
+        "en":  "climate",
+        "id_":  "iklim"
+    },
+    {
+        "id":  783,
+        "en":  "coast",
+        "id_":  "pantai"
+    },
+    {
+        "id":  784,
+        "en":  "desert",
+        "id_":  "gurun"
+    },
+    {
+        "id":  785,
+        "en":  "earthquake",
+        "id_":  "gempa bumi"
+    },
+    {
+        "id":  786,
+        "en":  "ecology",
+        "id_":  "ekologi"
+    },
+    {
+        "id":  787,
+        "en":  "energy",
+        "id_":  "energi"
+    },
+    {
+        "id":  788,
+        "en":  "flood",
+        "id_":  "banjir"
+    },
+    {
+        "id":  789,
+        "en":  "fog",
+        "id_":  "kabut"
+    },
+    {
+        "id":  790,
+        "en":  "forest",
+        "id_":  "hutan"
+    },
+    {
+        "id":  791,
+        "en":  "galaxy",
+        "id_":  "galaksi"
+    },
+    {
+        "id":  792,
+        "en":  "glacier",
+        "id_":  "gletser"
+    },
+    {
+        "id":  793,
+        "en":  "hurricane",
+        "id_":  "badai hurikan"
+    },
+    {
+        "id":  794,
+        "en":  "jungle",
+        "id_":  "hutan belantara"
+    },
+    {
+        "id":  795,
+        "en":  "lightning",
+        "id_":  "petir"
+    },
+    {
+        "id":  796,
+        "en":  "meadow",
+        "id_":  "padang rumput"
+    },
+    {
+        "id":  797,
+        "en":  "mineral",
+        "id_":  "mineral"
+    },
+    {
+        "id":  798,
+        "en":  "ocean",
+        "id_":  "samudra"
+    },
+    {
+        "id":  799,
+        "en":  "orbit",
+        "id_":  "orbit"
+    },
+    {
+        "id":  800,
+        "en":  "oxygen",
+        "id_":  "oksigen"
+    },
+    {
+        "id":  801,
+        "en":  "planet",
+        "id_":  "planet"
+    },
+    {
+        "id":  802,
+        "en":  "pollution",
+        "id_":  "polusi"
+    },
+    {
+        "id":  803,
+        "en":  "rainbow",
+        "id_":  "pelangi"
+    },
+    {
+        "id":  804,
+        "en":  "season",
+        "id_":  "musim"
+    },
+    {
+        "id":  805,
+        "en":  "soil",
+        "id_":  "tanah"
+    },
+    {
+        "id":  806,
+        "en":  "solar",
+        "id_":  "matahari"
+    },
+    {
+        "id":  807,
+        "en":  "spring",
+        "id_":  "musim semi"
+    },
+    {
+        "id":  808,
+        "en":  "summer",
+        "id_":  "musim panas"
+    },
+    {
+        "id":  809,
+        "en":  "thunder",
+        "id_":  "guntur"
+    },
+    {
+        "id":  810,
+        "en":  "tide",
+        "id_":  "pasang surut"
+    },
+    {
+        "id":  811,
+        "en":  "tornado",
+        "id_":  "tornado"
+    },
+    {
+        "id":  812,
+        "en":  "universe",
+        "id_":  "alam semesta"
+    },
+    {
+        "id":  813,
+        "en":  "valley",
+        "id_":  "lembah"
+    },
+    {
+        "id":  814,
+        "en":  "volcano",
+        "id_":  "gunung berapi"
+    },
+    {
+        "id":  815,
+        "en":  "waterfall",
+        "id_":  "air terjun"
+    },
+    {
+        "id":  816,
+        "en":  "wave",
+        "id_":  "ombak"
+    },
+    {
+        "id":  817,
+        "en":  "weather",
+        "id_":  "cuaca"
+    },
+    {
+        "id":  818,
+        "en":  "wildlife",
+        "id_":  "satwa liar"
+    },
+    {
+        "id":  819,
+        "en":  "winter",
+        "id_":  "musim dingin"
+    },
+    {
+        "id":  820,
+        "en":  "wood",
+        "id_":  "kayu"
+    },
+    {
+        "id":  821,
+        "en":  "beef",
+        "id_":  "daging sapi"
+    },
+    {
+        "id":  822,
+        "en":  "bread",
+        "id_":  "roti"
+    },
+    {
+        "id":  823,
+        "en":  "butter",
+        "id_":  "mentega"
+    },
+    {
+        "id":  824,
+        "en":  "cake",
+        "id_":  "kue"
+    },
+    {
+        "id":  825,
+        "en":  "candy",
+        "id_":  "permen"
+    },
+    {
+        "id":  826,
+        "en":  "carrot",
+        "id_":  "wortel"
+    },
+    {
+        "id":  827,
+        "en":  "cheese",
+        "id_":  "keju"
+    },
+    {
+        "id":  828,
+        "en":  "chicken",
+        "id_":  "ayam"
+    },
+    {
+        "id":  829,
+        "en":  "chocolate",
+        "id_":  "cokelat"
+    },
+    {
+        "id":  830,
+        "en":  "coconut",
+        "id_":  "kelapa"
+    },
+    {
+        "id":  831,
+        "en":  "corn",
+        "id_":  "jagung"
+    },
+    {
+        "id":  832,
+        "en":  "cucumber",
+        "id_":  "mentimun"
+    },
+    {
+        "id":  833,
+        "en":  "curry",
+        "id_":  "kari"
+    },
+    {
+        "id":  834,
+        "en":  "dessert",
+        "id_":  "makanan penutup"
+    },
+    {
+        "id":  835,
+        "en":  "duck",
+        "id_":  "bebek"
+    },
+    {
+        "id":  836,
+        "en":  "flour",
+        "id_":  "tepung"
+    },
+    {
+        "id":  837,
+        "en":  "garlic",
+        "id_":  "bawang putih"
+    },
+    {
+        "id":  838,
+        "en":  "ginger",
+        "id_":  "jahe"
+    },
+    {
+        "id":  839,
+        "en":  "grape",
+        "id_":  "anggur"
+    },
+    {
+        "id":  840,
+        "en":  "honey",
+        "id_":  "madu"
+    },
+    {
+        "id":  841,
+        "en":  "juice",
+        "id_":  "jus"
+    },
+    {
+        "id":  842,
+        "en":  "lamb",
+        "id_":  "domba"
+    },
+    {
+        "id":  843,
+        "en":  "lemon",
+        "id_":  "lemon"
+    },
+    {
+        "id":  844,
+        "en":  "lettuce",
+        "id_":  "selada"
+    },
+    {
+        "id":  845,
+        "en":  "lime",
+        "id_":  "jeruk nipis"
+    },
+    {
+        "id":  846,
+        "en":  "mango",
+        "id_":  "mangga"
+    },
+    {
+        "id":  847,
+        "en":  "meal",
+        "id_":  "makanan"
+    },
+    {
+        "id":  848,
+        "en":  "noodle",
+        "id_":  "mie"
+    },
+    {
+        "id":  849,
+        "en":  "onion",
+        "id_":  "bawang"
+    },
+    {
+        "id":  850,
+        "en":  "pasta",
+        "id_":  "pasta"
+    },
+    {
+        "id":  851,
+        "en":  "pepper",
+        "id_":  "merica"
+    },
+    {
+        "id":  852,
+        "en":  "pineapple",
+        "id_":  "nanas"
+    },
+    {
+        "id":  853,
+        "en":  "pizza",
+        "id_":  "pizza"
+    },
+    {
+        "id":  854,
+        "en":  "pork",
+        "id_":  "daging babi"
+    },
+    {
+        "id":  855,
+        "en":  "potato",
+        "id_":  "kentang"
+    },
+    {
+        "id":  856,
+        "en":  "rice",
+        "id_":  "nasi"
+    },
+    {
+        "id":  857,
+        "en":  "salmon",
+        "id_":  "salmon"
+    },
+    {
+        "id":  858,
+        "en":  "salt",
+        "id_":  "garam"
+    },
+    {
+        "id":  859,
+        "en":  "sandwich",
+        "id_":  "roti lapis"
+    },
+    {
+        "id":  860,
+        "en":  "sauce",
+        "id_":  "saus"
+    },
+    {
+        "id":  861,
+        "en":  "shrimp",
+        "id_":  "udang"
+    },
+    {
+        "id":  862,
+        "en":  "spinach",
+        "id_":  "bayam"
+    },
+    {
+        "id":  863,
+        "en":  "steak",
+        "id_":  "steak"
+    },
+    {
+        "id":  864,
+        "en":  "strawberry",
+        "id_":  "stroberi"
+    },
+    {
+        "id":  865,
+        "en":  "tea",
+        "id_":  "teh"
+    },
+    {
+        "id":  866,
+        "en":  "tomato",
+        "id_":  "tomat"
+    },
+    {
+        "id":  867,
+        "en":  "tuna",
+        "id_":  "tuna"
+    },
+    {
+        "id":  868,
+        "en":  "vegetable",
+        "id_":  "sayuran"
+    },
+    {
+        "id":  869,
+        "en":  "vinegar",
+        "id_":  "cuka"
+    },
+    {
+        "id":  870,
+        "en":  "watermelon",
+        "id_":  "semangka"
+    },
+    {
+        "id":  871,
+        "en":  "wheat",
+        "id_":  "gandum"
+    },
+    {
+        "id":  872,
+        "en":  "airline",
+        "id_":  "maskapai"
+    },
+    {
+        "id":  873,
+        "en":  "baggage",
+        "id_":  "bagasi"
+    },
+    {
+        "id":  874,
+        "en":  "boarding",
+        "id_":  "naik pesawat"
+    },
+    {
+        "id":  875,
+        "en":  "booking",
+        "id_":  "pemesanan"
+    },
+    {
+        "id":  876,
+        "en":  "border",
+        "id_":  "perbatasan"
+    },
+    {
+        "id":  877,
+        "en":  "bus",
+        "id_":  "bus"
+    },
+    {
+        "id":  878,
+        "en":  "cabin",
+        "id_":  "kabin"
+    },
+    {
+        "id":  879,
+        "en":  "cancel",
+        "id_":  "membatalkan"
+    },
+    {
+        "id":  880,
+        "en":  "captain",
+        "id_":  "kapten"
+    },
+    {
+        "id":  881,
+        "en":  "cargo",
+        "id_":  "kargo"
+    },
+    {
+        "id":  882,
+        "en":  "checkpoint",
+        "id_":  "pos pemeriksaan"
+    },
+    {
+        "id":  883,
+        "en":  "departure",
+        "id_":  "keberangkatan"
+    },
+    {
+        "id":  884,
+        "en":  "destination",
+        "id_":  "tujuan"
+    },
+    {
+        "id":  885,
+        "en":  "driver",
+        "id_":  "sopir"
+    },
+    {
+        "id":  886,
+        "en":  "embassy",
+        "id_":  "kedutaan"
+    },
+    {
+        "id":  887,
+        "en":  "fare",
+        "id_":  "tarif"
+    },
+    {
+        "id":  888,
+        "en":  "ferry",
+        "id_":  "kapal feri"
+    },
+    {
+        "id":  889,
+        "en":  "flight",
+        "id_":  "penerbangan"
+    },
+    {
+        "id":  890,
+        "en":  "highway",
+        "id_":  "jalan raya"
+    },
+    {
+        "id":  891,
+        "en":  "immigration",
+        "id_":  "imigrasi"
+    },
+    {
+        "id":  892,
+        "en":  "journey",
+        "id_":  "perjalanan"
+    },
+    {
+        "id":  893,
+        "en":  "luggage",
+        "id_":  "koper"
+    },
+    {
+        "id":  894,
+        "en":  "motorcycle",
+        "id_":  "sepeda motor"
+    },
+    {
+        "id":  895,
+        "en":  "passport",
+        "id_":  "paspor"
+    },
+    {
+        "id":  896,
+        "en":  "pilot",
+        "id_":  "pilot"
+    },
+    {
+        "id":  897,
+        "en":  "port",
+        "id_":  "pelabuhan"
+    },
+    {
+        "id":  898,
+        "en":  "railway",
+        "id_":  "kereta api"
+    },
+    {
+        "id":  899,
+        "en":  "reservation",
+        "id_":  "reservasi"
+    },
+    {
+        "id":  900,
+        "en":  "route",
+        "id_":  "rute"
+    },
+    {
+        "id":  901,
+        "en":  "runway",
+        "id_":  "landasan pacu"
+    },
+    {
+        "id":  902,
+        "en":  "shuttle",
+        "id_":  "antar-jemput"
+    },
+    {
+        "id":  903,
+        "en":  "subway",
+        "id_":  "kereta bawah tanah"
+    },
+    {
+        "id":  904,
+        "en":  "taxi",
+        "id_":  "taksi"
+    },
+    {
+        "id":  905,
+        "en":  "terminal",
+        "id_":  "terminal"
+    },
+    {
+        "id":  906,
+        "en":  "ticket",
+        "id_":  "tiket"
+    },
+    {
+        "id":  907,
+        "en":  "toll",
+        "id_":  "tol"
+    },
+    {
+        "id":  908,
+        "en":  "tourism",
+        "id_":  "pariwisata"
+    },
+    {
+        "id":  909,
+        "en":  "tourist",
+        "id_":  "wisatawan"
+    },
+    {
+        "id":  910,
+        "en":  "traffic",
+        "id_":  "lalu lintas"
+    },
+    {
+        "id":  911,
+        "en":  "transit",
+        "id_":  "transit"
+    },
+    {
+        "id":  912,
+        "en":  "trip",
+        "id_":  "perjalanan"
+    },
+    {
+        "id":  913,
+        "en":  "visa",
+        "id_":  "visa"
+    },
+    {
+        "id":  914,
+        "en":  "bored",
+        "id_":  "bosan"
+    },
+    {
+        "id":  915,
+        "en":  "confused",
+        "id_":  "bingung"
+    },
+    {
+        "id":  916,
+        "en":  "crazy",
+        "id_":  "gila"
+    },
+    {
+        "id":  917,
+        "en":  "depressed",
+        "id_":  "depresi"
+    },
+    {
+        "id":  918,
+        "en":  "disappointed",
+        "id_":  "kecewa"
+    },
+    {
+        "id":  919,
+        "en":  "embarrassed",
+        "id_":  "malu"
+    },
+    {
+        "id":  920,
+        "en":  "emotional",
+        "id_":  "emosional"
+    },
+    {
+        "id":  921,
+        "en":  "enjoy",
+        "id_":  "menikmati"
+    },
+    {
+        "id":  922,
+        "en":  "enthusiasm",
+        "id_":  "antusias"
+    },
+    {
+        "id":  923,
+        "en":  "fear",
+        "id_":  "ketakutan"
+    },
+    {
+        "id":  924,
+        "en":  "frustrated",
+        "id_":  "frustrasi"
+    },
+    {
+        "id":  925,
+        "en":  "grateful",
+        "id_":  "bersyukur"
+    },
+    {
+        "id":  926,
+        "en":  "grief",
+        "id_":  "dukacita"
+    },
+    {
+        "id":  927,
+        "en":  "guilty",
+        "id_":  "bersalah"
+    },
+    {
+        "id":  928,
+        "en":  "hopeful",
+        "id_":  "penuh harapan"
+    },
+    {
+        "id":  929,
+        "en":  "humorous",
+        "id_":  "humoris"
+    },
+    {
+        "id":  930,
+        "en":  "impressed",
+        "id_":  "terkesan"
+    },
+    {
+        "id":  931,
+        "en":  "inspiration",
+        "id_":  "inspirasi"
+    },
+    {
+        "id":  932,
+        "en":  "joyful",
+        "id_":  "gembira"
+    },
+    {
+        "id":  933,
+        "en":  "miserable",
+        "id_":  "sengsara"
+    },
+    {
+        "id":  934,
+        "en":  "mood",
+        "id_":  "suasana hati"
+    },
+    {
+        "id":  935,
+        "en":  "optimistic",
+        "id_":  "optimis"
+    },
+    {
+        "id":  936,
+        "en":  "passion",
+        "id_":  "gairah"
+    },
+    {
+        "id":  937,
+        "en":  "peaceful",
+        "id_":  "damai"
+    },
+    {
+        "id":  938,
+        "en":  "pessimistic",
+        "id_":  "pesimis"
+    },
+    {
+        "id":  939,
+        "en":  "regret",
+        "id_":  "penyesalan"
+    },
+    {
+        "id":  940,
+        "en":  "relieved",
+        "id_":  "lega"
+    },
+    {
+        "id":  941,
+        "en":  "scared",
+        "id_":  "ketakutan"
+    },
+    {
+        "id":  942,
+        "en":  "sensitive",
+        "id_":  "sensitif"
+    },
+    {
+        "id":  943,
+        "en":  "shame",
+        "id_":  "rasa malu"
+    },
+    {
+        "id":  944,
+        "en":  "shy",
+        "id_":  "pemalu"
+    },
+    {
+        "id":  945,
+        "en":  "stress",
+        "id_":  "stres"
+    },
+    {
+        "id":  946,
+        "en":  "sympathy",
+        "id_":  "simpati"
+    },
+    {
+        "id":  947,
+        "en":  "trust",
+        "id_":  "kepercayaan"
+    },
+    {
+        "id":  948,
+        "en":  "upset",
+        "id_":  "kesal"
+    },
+    {
+        "id":  949,
+        "en":  "analysis",
+        "id_":  "analisis"
+    },
+    {
+        "id":  950,
+        "en":  "argument",
+        "id_":  "argumen"
+    },
+    {
+        "id":  951,
+        "en":  "assumption",
+        "id_":  "asumsi"
+    },
+    {
+        "id":  952,
+        "en":  "bibliography",
+        "id_":  "bibliografi"
+    },
+    {
+        "id":  953,
+        "en":  "citation",
+        "id_":  "kutipan"
+    },
+    {
+        "id":  954,
+        "en":  "conclusion",
+        "id_":  "kesimpulan"
+    },
+    {
+        "id":  955,
+        "en":  "context",
+        "id_":  "konteks"
+    },
+    {
+        "id":  956,
+        "en":  "controversy",
+        "id_":  "kontroversi"
+    },
+    {
+        "id":  957,
+        "en":  "criteria",
+        "id_":  "kriteria"
+    },
+    {
+        "id":  958,
+        "en":  "critique",
+        "id_":  "kritik"
+    },
+    {
+        "id":  959,
+        "en":  "curriculum",
+        "id_":  "kurikulum"
+    },
+    {
+        "id":  960,
+        "en":  "debate",
+        "id_":  "debat"
+    },
+    {
+        "id":  961,
+        "en":  "definition",
+        "id_":  "definisi"
+    },
+    {
+        "id":  962,
+        "en":  "dissertation",
+        "id_":  "disertasi"
+    },
+    {
+        "id":  963,
+        "en":  "document",
+        "id_":  "dokumen"
+    },
+    {
+        "id":  964,
+        "en":  "draft",
+        "id_":  "draf"
+    },
+    {
+        "id":  965,
+        "en":  "education",
+        "id_":  "pendidikan"
+    },
+    {
+        "id":  966,
+        "en":  "evidence",
+        "id_":  "bukti"
+    },
+    {
+        "id":  967,
+        "en":  "experiment",
+        "id_":  "eksperimen"
+    },
+    {
+        "id":  968,
+        "en":  "explanation",
+        "id_":  "penjelasan"
+    },
+    {
+        "id":  969,
+        "en":  "framework",
+        "id_":  "kerangka"
+    },
+    {
+        "id":  970,
+        "en":  "hypothesis",
+        "id_":  "hipotesis"
+    },
+    {
+        "id":  971,
+        "en":  "implication",
+        "id_":  "implikasi"
+    },
+    {
+        "id":  972,
+        "en":  "index",
+        "id_":  "indeks"
+    },
+    {
+        "id":  973,
+        "en":  "investigation",
+        "id_":  "investigasi"
+    },
+    {
+        "id":  974,
+        "en":  "journal",
+        "id_":  "jurnal"
+    },
+    {
+        "id":  975,
+        "en":  "literature",
+        "id_":  "sastra"
+    },
+    {
+        "id":  976,
+        "en":  "logic",
+        "id_":  "logika"
+    },
+    {
+        "id":  977,
+        "en":  "observation",
+        "id_":  "pengamatan"
+    },
+    {
+        "id":  978,
+        "en":  "paragraph",
+        "id_":  "paragraf"
+    },
+    {
+        "id":  979,
+        "en":  "perspective",
+        "id_":  "perspektif"
+    },
+    {
+        "id":  980,
+        "en":  "philosophy",
+        "id_":  "filsafat"
+    },
+    {
+        "id":  981,
+        "en":  "professor",
+        "id_":  "profesor"
+    },
+    {
+        "id":  982,
+        "en":  "proof",
+        "id_":  "bukti"
+    },
+    {
+        "id":  983,
+        "en":  "publication",
+        "id_":  "publikasi"
+    },
+    {
+        "id":  984,
+        "en":  "reference",
+        "id_":  "referensi"
+    },
+    {
+        "id":  985,
+        "en":  "scholar",
+        "id_":  "cendekiawan"
+    },
+    {
+        "id":  986,
+        "en":  "science",
+        "id_":  "ilmu pengetahuan"
+    },
+    {
+        "id":  987,
+        "en":  "statistics",
+        "id_":  "statistik"
+    },
+    {
+        "id":  988,
+        "en":  "subject",
+        "id_":  "mata pelajaran"
+    },
+    {
+        "id":  989,
+        "en":  "survey",
+        "id_":  "survei"
+    },
+    {
+        "id":  990,
+        "en":  "theory",
+        "id_":  "teori"
+    },
+    {
+        "id":  991,
+        "en":  "thesis",
+        "id_":  "tesis"
+    },
+    {
+        "id":  992,
+        "en":  "topic",
+        "id_":  "topik"
+    },
+    {
+        "id":  993,
+        "en":  "university",
+        "id_":  "universitas"
+    },
+    {
+        "id":  994,
+        "en":  "actually",
+        "id_":  "sebenarnya"
+    },
+    {
+        "id":  995,
+        "en":  "already",
+        "id_":  "sudah"
+    },
+    {
+        "id":  996,
+        "en":  "although",
+        "id_":  "meskipun"
+    },
+    {
+        "id":  997,
+        "en":  "among",
+        "id_":  "di antara"
+    },
+    {
+        "id":  998,
+        "en":  "anyway",
+        "id_":  "bagaimanapun"
+    },
+    {
+        "id":  999,
+        "en":  "approximately",
+        "id_":  "kira-kira"
+    },
+    {
+        "id":  1000,
+        "en":  "around",
+        "id_":  "sekitar"
+    },
+    {
+        "id":  1001,
+        "en":  "because",
+        "id_":  "karena"
+    },
+    {
+        "id":  1002,
+        "en":  "besides",
+        "id_":  "selain itu"
+    },
+    {
+        "id":  1003,
+        "en":  "between",
+        "id_":  "antara"
+    },
+    {
+        "id":  1004,
+        "en":  "beyond",
+        "id_":  "melampaui"
+    },
+    {
+        "id":  1005,
+        "en":  "certainly",
+        "id_":  "tentu saja"
+    },
+    {
+        "id":  1006,
+        "en":  "clearly",
+        "id_":  "jelas"
+    },
+    {
+        "id":  1007,
+        "en":  "despite",
+        "id_":  "meskipun"
+    },
+    {
+        "id":  1008,
+        "en":  "during",
+        "id_":  "selama"
+    },
+    {
+        "id":  1009,
+        "en":  "either",
+        "id_":  "salah satu"
+    },
+    {
+        "id":  1010,
+        "en":  "especially",
+        "id_":  "terutama"
+    },
+    {
+        "id":  1011,
+        "en":  "eventually",
+        "id_":  "akhirnya"
+    },
+    {
+        "id":  1012,
+        "en":  "exactly",
+        "id_":  "tepat"
+    },
+    {
+        "id":  1013,
+        "en":  "except",
+        "id_":  "kecuali"
+    },
+    {
+        "id":  1014,
+        "en":  "extremely",
+        "id_":  "sangat"
+    },
+    {
+        "id":  1015,
+        "en":  "finally",
+        "id_":  "akhirnya"
+    },
+    {
+        "id":  1016,
+        "en":  "generally",
+        "id_":  "umumnya"
+    },
+    {
+        "id":  1017,
+        "en":  "however",
+        "id_":  "namun"
+    },
+    {
+        "id":  1018,
+        "en":  "immediately",
+        "id_":  "segera"
+    },
+    {
+        "id":  1019,
+        "en":  "instead",
+        "id_":  "sebaliknya"
+    },
+    {
+        "id":  1020,
+        "en":  "mainly",
+        "id_":  "terutama"
+    },
+    {
+        "id":  1021,
+        "en":  "meanwhile",
+        "id_":  "sementara"
+    },
+    {
+        "id":  1022,
+        "en":  "moreover",
+        "id_":  "selain itu"
+    },
+    {
+        "id":  1023,
+        "en":  "mostly",
+        "id_":  "sebagian besar"
+    },
+    {
+        "id":  1024,
+        "en":  "nearly",
+        "id_":  "hampir"
+    },
+    {
+        "id":  1025,
+        "en":  "nevertheless",
+        "id_":  "meskipun demikian"
+    },
+    {
+        "id":  1026,
+        "en":  "otherwise",
+        "id_":  "jika tidak"
+    },
+    {
+        "id":  1027,
+        "en":  "perhaps",
+        "id_":  "mungkin"
+    },
+    {
+        "id":  1028,
+        "en":  "probably",
+        "id_":  "kemungkinan"
+    },
+    {
+        "id":  1029,
+        "en":  "quickly",
+        "id_":  "dengan cepat"
+    },
+    {
+        "id":  1030,
+        "en":  "rather",
+        "id_":  "agak"
+    },
+    {
+        "id":  1031,
+        "en":  "really",
+        "id_":  "sungguh"
+    },
+    {
+        "id":  1032,
+        "en":  "suddenly",
+        "id_":  "tiba-tiba"
+    },
+    {
+        "id":  1033,
+        "en":  "therefore",
+        "id_":  "oleh karena itu"
+    },
+    {
+        "id":  1034,
+        "en":  "together",
+        "id_":  "bersama"
+    },
+    {
+        "id":  1035,
+        "en":  "totally",
+        "id_":  "sepenuhnya"
+    },
+    {
+        "id":  1036,
+        "en":  "toward",
+        "id_":  "menuju"
+    },
+    {
+        "id":  1037,
+        "en":  "typically",
+        "id_":  "biasanya"
+    },
+    {
+        "id":  1038,
+        "en":  "unless",
+        "id_":  "kecuali jika"
+    },
+    {
+        "id":  1039,
+        "en":  "until",
+        "id_":  "sampai"
+    },
+    {
+        "id":  1040,
+        "en":  "whatever",
+        "id_":  "apapun"
+    },
+    {
+        "id":  1041,
+        "en":  "whenever",
+        "id_":  "kapanpun"
+    },
+    {
+        "id":  1042,
+        "en":  "wherever",
+        "id_":  "dimanapun"
+    },
+    {
+        "id":  1043,
+        "en":  "whether",
+        "id_":  "apakah"
+    },
+    {
+        "id":  1044,
+        "en":  "while",
+        "id_":  "sementara"
+    },
+    {
+        "id":  1045,
+        "en":  "within",
+        "id_":  "dalam"
+    },
+    {
+        "id":  1046,
+        "en":  "without",
+        "id_":  "tanpa"
+    },
+    {
+        "id":  1047,
+        "en":  "yet",
+        "id_":  "namun"
+    },
+    {
+        "id":  1048,
+        "en":  "circumstance",
+        "id_":  "keadaan"
+    },
+    {
+        "id":  1049,
+        "en":  "collaboration",
+        "id_":  "kolaborasi"
+    },
+    {
+        "id":  1050,
+        "en":  "commitment",
+        "id_":  "komitmen"
+    },
+    {
+        "id":  1051,
+        "en":  "community",
+        "id_":  "komunitas"
+    },
+    {
+        "id":  1052,
+        "en":  "complexity",
+        "id_":  "kompleksitas"
+    },
+    {
+        "id":  1053,
+        "en":  "consequence",
+        "id_":  "konsekuensi"
+    },
+    {
+        "id":  1054,
+        "en":  "conversation",
+        "id_":  "percakapan"
+    },
+    {
+        "id":  1055,
+        "en":  "coordination",
+        "id_":  "koordinasi"
+    },
+    {
+        "id":  1056,
+        "en":  "correlation",
+        "id_":  "korelasi"
+    },
+    {
+        "id":  1057,
+        "en":  "cultivation",
+        "id_":  "budidaya"
+    },
+    {
+        "id":  1058,
+        "en":  "curiosity",
+        "id_":  "rasa ingin tahu"
+    },
+    {
+        "id":  1059,
+        "en":  "determination",
+        "id_":  "tekad"
+    },
+    {
+        "id":  1060,
+        "en":  "dimension",
+        "id_":  "dimensi"
+    },
+    {
+        "id":  1061,
+        "en":  "disappear",
+        "id_":  "menghilang"
+    },
+    {
+        "id":  1062,
+        "en":  "discipline",
+        "id_":  "disiplin"
+    },
+    {
+        "id":  1063,
+        "en":  "discovery",
+        "id_":  "penemuan"
+    },
+    {
+        "id":  1064,
+        "en":  "discrimination",
+        "id_":  "diskriminasi"
+    },
+    {
+        "id":  1065,
+        "en":  "distribution",
+        "id_":  "distribusi"
+    },
+    {
+        "id":  1066,
+        "en":  "diversity",
+        "id_":  "keberagaman"
+    },
+    {
+        "id":  1067,
+        "en":  "dominance",
+        "id_":  "dominasi"
+    },
+    {
+        "id":  1068,
+        "en":  "engagement",
+        "id_":  "keterlibatan"
+    },
+    {
+        "id":  1069,
+        "en":  "equality",
+        "id_":  "kesetaraan"
+    },
+    {
+        "id":  1070,
+        "en":  "expectation",
+        "id_":  "harapan"
+    },
+    {
+        "id":  1071,
+        "en":  "experience",
+        "id_":  "pengalaman"
+    },
+    {
+        "id":  1072,
+        "en":  "exploration",
+        "id_":  "eksplorasi"
+    },
+    {
+        "id":  1073,
+        "en":  "expression",
+        "id_":  "ekspresi"
+    },
+    {
+        "id":  1074,
+        "en":  "flexibility",
+        "id_":  "fleksibilitas"
+    },
+    {
+        "id":  1075,
+        "en":  "foundation",
+        "id_":  "fondasi"
+    },
+    {
+        "id":  1076,
+        "en":  "freedom",
+        "id_":  "kebebasan"
+    },
+    {
+        "id":  1077,
+        "en":  "guidance",
+        "id_":  "bimbingan"
+    },
+    {
+        "id":  1078,
+        "en":  "imagination",
+        "id_":  "imajinasi"
+    },
+    {
+        "id":  1079,
+        "en":  "independence",
+        "id_":  "kemandirian"
+    },
+    {
+        "id":  1080,
+        "en":  "initiative",
+        "id_":  "inisiatif"
+    },
+    {
+        "id":  1081,
+        "en":  "innovation",
+        "id_":  "inovasi"
+    },
+    {
+        "id":  1082,
+        "en":  "integrity",
+        "id_":  "integritas"
+    },
+    {
+        "id":  1083,
+        "en":  "interaction",
+        "id_":  "interaksi"
+    },
+    {
+        "id":  1084,
+        "en":  "introduction",
+        "id_":  "perkenalan"
+    },
+    {
+        "id":  1085,
+        "en":  "limitation",
+        "id_":  "keterbatasan"
+    },
+    {
+        "id":  1086,
+        "en":  "motivation",
+        "id_":  "motivasi"
+    },
+    {
+        "id":  1087,
+        "en":  "negotiation",
+        "id_":  "negosiasi"
+    },
+    {
+        "id":  1088,
+        "en":  "obligation",
+        "id_":  "kewajiban"
+    },
+    {
+        "id":  1089,
+        "en":  "opportunity",
+        "id_":  "kesempatan"
+    },
+    {
+        "id":  1090,
+        "en":  "opposition",
+        "id_":  "oposisi"
+    },
+    {
+        "id":  1091,
+        "en":  "perception",
+        "id_":  "persepsi"
+    },
+    {
+        "id":  1092,
+        "en":  "perseverance",
+        "id_":  "ketekunan"
+    },
+    {
+        "id":  1093,
+        "en":  "phenomenon",
+        "id_":  "fenomena"
+    },
+    {
+        "id":  1094,
+        "en":  "population",
+        "id_":  "populasi"
+    },
+    {
+        "id":  1095,
+        "en":  "possibility",
+        "id_":  "kemungkinan"
+    },
+    {
+        "id":  1096,
+        "en":  "preparation",
+        "id_":  "persiapan"
+    },
+    {
+        "id":  1097,
+        "en":  "progression",
+        "id_":  "perkembangan"
+    },
+    {
+        "id":  1098,
+        "en":  "recognition",
+        "id_":  "pengakuan"
+    },
+    {
+        "id":  1099,
+        "en":  "relationship",
+        "id_":  "hubungan"
+    },
+    {
+        "id":  1100,
+        "en":  "reliability",
+        "id_":  "keandalan"
+    },
+    {
+        "id":  1101,
+        "en":  "representation",
+        "id_":  "representasi"
+    },
+    {
+        "id":  1102,
+        "en":  "reputation",
+        "id_":  "reputasi"
+    },
+    {
+        "id":  1103,
+        "en":  "resilience",
+        "id_":  "ketahanan"
+    },
+    {
+        "id":  1104,
+        "en":  "responsibility",
+        "id_":  "tanggung jawab"
+    },
+    {
+        "id":  1105,
+        "en":  "satisfaction",
+        "id_":  "kepuasan"
+    },
+    {
+        "id":  1106,
+        "en":  "significance",
+        "id_":  "makna penting"
+    },
+    {
+        "id":  1107,
+        "en":  "sustainability",
+        "id_":  "keberlanjutan"
+    },
+    {
+        "id":  1108,
+        "en":  "transformation",
+        "id_":  "transformasi"
+    },
+    {
+        "id":  1109,
+        "en":  "transparency",
+        "id_":  "transparansi"
+    },
+    {
+        "id":  1110,
+        "en":  "vulnerability",
+        "id_":  "kerentanan"
+    },
+    {
+        "id":  1111,
+        "en":  "acceptance",
+        "id_":  "penerimaan"
+    },
+    {
+        "id":  1112,
+        "en":  "accommodation",
+        "id_":  "akomodasi"
+    },
+    {
+        "id":  1113,
+        "en":  "achievement",
+        "id_":  "pencapaian"
+    },
+    {
+        "id":  1114,
+        "en":  "administration",
+        "id_":  "administrasi"
+    },
+    {
+        "id":  1115,
+        "en":  "adventure",
+        "id_":  "petualangan"
+    },
+    {
+        "id":  1116,
+        "en":  "announcement",
+        "id_":  "pengumuman"
+    },
+    {
+        "id":  1117,
+        "en":  "appreciation",
+        "id_":  "apresiasi"
+    },
+    {
+        "id":  1118,
+        "en":  "architecture",
+        "id_":  "arsitektur"
+    },
+    {
+        "id":  1119,
+        "en":  "arrangement",
+        "id_":  "pengaturan"
+    },
+    {
+        "id":  1120,
+        "en":  "assessment",
+        "id_":  "penilaian"
+    },
+    {
+        "id":  1121,
+        "en":  "association",
+        "id_":  "asosiasi"
+    },
+    {
+        "id":  1122,
+        "en":  "atmosphere",
+        "id_":  "suasana"
+    },
+    {
+        "id":  1123,
+        "en":  "authorization",
+        "id_":  "otorisasi"
+    },
+    {
+        "id":  1124,
+        "en":  "championship",
+        "id_":  "kejuaraan"
+    },
+    {
+        "id":  1125,
+        "en":  "characteristic",
+        "id_":  "karakteristik"
+    },
+    {
+        "id":  1126,
+        "en":  "civilization",
+        "id_":  "peradaban"
+    },
+    {
+        "id":  1127,
+        "en":  "classification",
+        "id_":  "klasifikasi"
+    },
+    {
+        "id":  1128,
+        "en":  "combination",
+        "id_":  "kombinasi"
+    },
+    {
+        "id":  1129,
+        "en":  "compensation",
+        "id_":  "kompensasi"
+    },
+    {
+        "id":  1130,
+        "en":  "competition",
+        "id_":  "kompetisi"
+    },
+    {
+        "id":  1131,
+        "en":  "concentration",
+        "id_":  "konsentrasi"
+    },
+    {
+        "id":  1132,
+        "en":  "confirmation",
+        "id_":  "konfirmasi"
+    },
+    {
+        "id":  1133,
+        "en":  "confrontation",
+        "id_":  "konfrontasi"
+    },
+    {
+        "id":  1134,
+        "en":  "conservation",
+        "id_":  "konservasi"
+    },
+    {
+        "id":  1135,
+        "en":  "consideration",
+        "id_":  "pertimbangan"
+    },
+    {
+        "id":  1136,
+        "en":  "construction",
+        "id_":  "konstruksi"
+    },
+    {
+        "id":  1137,
+        "en":  "contribution",
+        "id_":  "kontribusi"
+    },
+    {
+        "id":  1138,
+        "en":  "corporation",
+        "id_":  "korporasi"
+    },
+    {
+        "id":  1139,
+        "en":  "demonstration",
+        "id_":  "demonstrasi"
+    },
+    {
+        "id":  1140,
+        "en":  "depression",
+        "id_":  "depresi"
+    },
+    {
+        "id":  1141,
+        "en":  "development",
+        "id_":  "pengembangan"
+    },
+    {
+        "id":  1142,
+        "en":  "disagreement",
+        "id_":  "ketidaksetujuan"
+    },
+    {
+        "id":  1143,
+        "en":  "documentary",
+        "id_":  "dokumenter"
+    },
+    {
+        "id":  1144,
+        "en":  "establishment",
+        "id_":  "pembentukan"
+    },
+    {
+        "id":  1145,
+        "en":  "examination",
+        "id_":  "ujian"
+    },
+    {
+        "id":  1146,
+        "en":  "extraordinary",
+        "id_":  "luar biasa"
+    },
+    {
+        "id":  1147,
+        "en":  "fascination",
+        "id_":  "daya tarik"
+    },
+    {
+        "id":  1148,
+        "en":  "generosity",
+        "id_":  "kemurahan hati"
+    },
+    {
+        "id":  1149,
+        "en":  "geographical",
+        "id_":  "geografis"
+    },
+    {
+        "id":  1150,
+        "en":  "gratitude",
+        "id_":  "rasa syukur"
+    },
+    {
+        "id":  1151,
+        "en":  "hospitality",
+        "id_":  "keramahan"
+    },
+    {
+        "id":  1152,
+        "en":  "identification",
+        "id_":  "identifikasi"
+    },
+    {
+        "id":  1153,
+        "en":  "implementation",
+        "id_":  "implementasi"
+    },
+    {
+        "id":  1154,
+        "en":  "improvement",
+        "id_":  "peningkatan"
+    },
+    {
+        "id":  1155,
+        "en":  "infrastructure",
+        "id_":  "infrastruktur"
+    },
+    {
+        "id":  1156,
+        "en":  "interpretation",
+        "id_":  "interpretasi"
+    },
+    {
+        "id":  1157,
+        "en":  "involvement",
+        "id_":  "keterlibatan"
+    },
+    {
+        "id":  1158,
+        "en":  "manufacturing",
+        "id_":  "manufaktur"
+    },
+    {
+        "id":  1159,
+        "en":  "measurement",
+        "id_":  "pengukuran"
+    },
+    {
+        "id":  1160,
+        "en":  "misunderstanding",
+        "id_":  "kesalahpahaman"
+    },
+    {
+        "id":  1161,
+        "en":  "neighborhood",
+        "id_":  "lingkungan sekitar"
+    },
+    {
+        "id":  1162,
+        "en":  "organization",
+        "id_":  "organisasi"
+    },
+    {
+        "id":  1163,
+        "en":  "participation",
+        "id_":  "partisipasi"
+    },
+    {
+        "id":  1164,
+        "en":  "partnership",
+        "id_":  "kemitraan"
+    },
+    {
+        "id":  1165,
+        "en":  "performance",
+        "id_":  "kinerja"
+    },
+    {
+        "id":  1166,
+        "en":  "prioritize",
+        "id_":  "memprioritaskan"
+    },
+    {
+        "id":  1167,
+        "en":  "productivity",
+        "id_":  "produktivitas"
+    },
+    {
+        "id":  1168,
+        "en":  "professionalism",
+        "id_":  "profesionalisme"
+    },
+    {
+        "id":  1169,
+        "en":  "qualification",
+        "id_":  "kualifikasi"
+    },
+    {
+        "id":  1170,
+        "en":  "recommendation",
+        "id_":  "rekomendasi"
+    },
+    {
+        "id":  1171,
+        "en":  "reconstruction",
+        "id_":  "rekonstruksi"
+    },
+    {
+        "id":  1172,
+        "en":  "reinforcement",
+        "id_":  "penguatan"
+    },
+    {
+        "id":  1173,
+        "en":  "specialization",
+        "id_":  "spesialisasi"
+    },
+    {
+        "id":  1174,
+        "en":  "standardization",
+        "id_":  "standarisasi"
+    },
+    {
+        "id":  1175,
+        "en":  "transportation",
+        "id_":  "transportasi"
+    },
+    {
+        "id":  1176,
+        "en":  "understanding",
+        "id_":  "pemahaman"
+    },
+    {
+        "id":  1177,
+        "en":  "unemployment",
+        "id_":  "pengangguran"
+    },
+    {
+        "id":  1178,
+        "en":  "visualization",
+        "id_":  "visualisasi"
+    },
+    {
+        "id":  1179,
+        "en":  "accomplishment",
+        "id_":  "prestasi"
+    },
+    {
+        "id":  1180,
+        "en":  "encouragement",
+        "id_":  "dorongan semangat"
+    },
+    {
+        "id":  1181,
+        "en":  "entertainment",
+        "id_":  "hiburan"
+    },
+    {
+        "id":  1182,
+        "en":  "communication",
+        "id_":  "komunikasi"
+    },
+    {
+        "id":  1183,
+        "en":  "concentration",
+        "id_":  "konsentrasi penuh"
+    },
+    {
+        "id":  1184,
+        "en":  "disappointment",
+        "id_":  "kekecewaan"
+    }
+]
