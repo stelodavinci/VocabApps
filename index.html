@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
@@ -61,9 +61,20 @@
     .vocab-card.done .card-en { color: #bbf7d0; }
     .card-id { font-size: 0.78rem; color: var(--text-secondary); line-height: 1.4; word-break: break-word; }
     .vocab-card.done .card-id { color: #86efac; }
-    .card-check { position: absolute; top: 9px; right: 9px; width: 20px; height: 20px; border-radius: 50%; background: var(--accent-green); display: flex; align-items: center; justify-content: center; opacity: 0; transform: scale(0.5); transition: opacity 0.25s, transform 0.25s cubic-bezier(.34,1.56,.64,1); }
+    /* Voice button */
+    .card-voice { position: absolute; top: 7px; right: 7px; width: 26px; height: 26px; border-radius: 50%; background: rgba(59,130,246,0.18); border: 1.5px solid rgba(59,130,246,0.35); display: flex; align-items: center; justify-content: center; cursor: pointer; transition: background 0.2s, transform 0.15s, border-color 0.2s; z-index: 2; -webkit-appearance: none; padding: 0; }
+    .card-voice:hover { background: rgba(59,130,246,0.35); border-color: rgba(59,130,246,0.7); }
+    .card-voice:active { transform: scale(0.88); }
+    .card-voice svg { width: 13px; height: 13px; fill: #93c5fd; transition: fill 0.2s; }
+    .vocab-card.done .card-voice { background: rgba(34,197,94,0.18); border-color: rgba(34,197,94,0.35); }
+    .vocab-card.done .card-voice svg { fill: #86efac; }
+    .card-voice.speaking { background: rgba(59,130,246,0.5) !important; border-color: #3b82f6 !important; animation: voicePulse 0.6s ease-in-out infinite alternate; }
+    .card-voice.speaking svg { fill: #fff !important; }
+    @keyframes voicePulse { from { box-shadow: 0 0 0 0 rgba(59,130,246,0.5); } to { box-shadow: 0 0 0 6px rgba(59,130,246,0); } }
+    /* Check badge overlaps voice button when card is done */
+    .card-check { position: absolute; top: 7px; right: 7px; width: 26px; height: 26px; border-radius: 50%; background: var(--accent-green); display: flex; align-items: center; justify-content: center; opacity: 0; transform: scale(0.4); transition: opacity 0.25s, transform 0.3s cubic-bezier(.34,1.56,.64,1); z-index: 3; pointer-events: none; }
     .vocab-card.done .card-check { opacity: 1; transform: scale(1); }
-    .card-check svg { width: 12px; height: 12px; stroke: #fff; stroke-width: 2.5; fill: none; }
+    .card-check svg { width: 13px; height: 13px; stroke: #fff; stroke-width: 2.5; fill: none; }
     .empty-state { text-align: center; padding: 60px 20px; color: var(--text-muted); }
     .empty-state .emoji-big { font-size: 3rem; margin-bottom: 12px; }
     .empty-state p { font-size: 0.9rem; line-height: 1.6; }
@@ -158,11 +169,64 @@
   function getTodayWords(w){const total=w.length,day=getDayOfYear(),grp=Math.ceil(total/WORDS_PER_DAY),idx=(day-1)%grp,start=idx*WORDS_PER_DAY;return w.slice(start,start+WORDS_PER_DAY);}
   function escapeHtml(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 
+
+  /* =========================================
+     VOICE / TEXT-TO-SPEECH
+  ========================================= */
+  let currentVoiceBtn = null;
+
+  function speakWord(word, btn) {
+    if (!('speechSynthesis' in window)) {
+      showToast('⚠️ Browser tidak mendukung Text-to-Speech');
+      return;
+    }
+
+    // Stop any ongoing speech
+    window.speechSynthesis.cancel();
+
+    // Remove speaking state from previous button
+    if (currentVoiceBtn) currentVoiceBtn.classList.remove('speaking');
+
+    const utter = new SpeechSynthesisUtterance(word);
+    utter.lang = 'en-US';
+    utter.rate = 0.85;   // sedikit lebih lambat agar jelas
+    utter.pitch = 1.0;
+    utter.volume = 1.0;
+
+    // Try to pick a natural English voice
+    const voices = window.speechSynthesis.getVoices();
+    const enVoice = voices.find(v => v.lang === 'en-US' && v.localService) ||
+                    voices.find(v => v.lang === 'en-US') ||
+                    voices.find(v => v.lang.startsWith('en'));
+    if (enVoice) utter.voice = enVoice;
+
+    // Visual feedback: pulse while speaking
+    btn.classList.add('speaking');
+    currentVoiceBtn = btn;
+
+    utter.onend = () => {
+      btn.classList.remove('speaking');
+      if (currentVoiceBtn === btn) currentVoiceBtn = null;
+    };
+    utter.onerror = () => {
+      btn.classList.remove('speaking');
+      if (currentVoiceBtn === btn) currentVoiceBtn = null;
+    };
+
+    window.speechSynthesis.speak(utter);
+  }
+
+  // iOS Safari fix: voices load asynchronously
+  if ('speechSynthesis' in window) {
+    window.speechSynthesis.getVoices();
+    window.speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
+  }
+
   function renderCards(){
     const grid=document.getElementById('cards-grid');grid.innerHTML='';
     let vis=currentFilter==='done'?todayWords.filter(w=>memorizedSet.has(w.id)):currentFilter==='todo'?todayWords.filter(w=>!memorizedSet.has(w.id)):todayWords;
     if(!vis.length){const e=document.createElement('div');e.className='empty-state';e.style.gridColumn='1/-1';e.innerHTML=currentFilter==='done'?'<div class="emoji-big">📝</div><p>Belum ada kata yang dihapal.<br>Tap kartu biru!</p>':'<div class="emoji-big">🎉</div><p>Semua kata sudah dihapal!</p>';grid.appendChild(e);return;}
-    vis.forEach((word,i)=>{const done=memorizedSet.has(word.id),card=document.createElement('div');card.className='vocab-card'+(done?' done':'');card.dataset.id=word.id;card.innerHTML=`<div class="card-num">#${String(i+1).padStart(3,'0')}</div><div class="card-en">${escapeHtml(word.en)}</div><div class="card-id">${escapeHtml(word.id_)}</div><div class="card-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg></div>`;card.addEventListener('click',()=>toggleCard(word.id,card));grid.appendChild(card);});
+    vis.forEach((word,i)=>{const done=memorizedSet.has(word.id),card=document.createElement('div');card.className='vocab-card'+(done?' done':'');card.dataset.id=word.id;card.innerHTML=`<div class="card-num">#${String(i+1).padStart(3,'0')}</div><div class="card-en">${escapeHtml(word.en)}</div><div class="card-id">${escapeHtml(word.id_)}</div><button class="card-voice" title="Dengar pengucapan"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11 5L6 9H2v6h4l5 4V5zm6.07 1.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg></button><div class="card-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg></div>`;const vBtn=card.querySelector('.card-voice');vBtn.addEventListener('click',e=>{e.stopPropagation();speakWord(word.en,vBtn);});card.addEventListener('click',()=>toggleCard(word.id,card));grid.appendChild(card);});
   }
 
   function toggleCard(wordId,cardEl){
